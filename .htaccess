@@ -1,0 +1,31 @@
+# Disable directory browsing
+Options All -Indexes
+
+# ----------------------------------------------------------------------
+# Rewrite engine
+# ----------------------------------------------------------------------
+Options +FollowSymlinks
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L,QSA]
+
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js|jpg|jpeg|png|gif)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+   
+    # WEEK
+    <FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+        Header set Cache-Control "max-age=31536000, public"
+    </FilesMatch>
+
+    # WEEK
+    <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js|jpg|jpeg|png|gif)$">
+        Header set Cache-Control "max-age=31536000"
+    </FilesMatch>
+</IfModule>
+
+

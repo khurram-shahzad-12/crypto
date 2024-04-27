@@ -1,0 +1,267 @@
+.footerContainer{
+    background: #EBF8FF;
+    padding: 56px 0px !important;
+
+    .footerHead{
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 23px;
+        padding-bottom: 16px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .items{
+        font-weight: 400;
+        font-size: 13px;
+        color: #4F4F4F;
+        text-decoration: none;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+}
+/* ---------------SecondContainer--------- */
+.footerSecondContainer{
+    background: #00142F;
+    padding: 56px 0px !important;
+    .apple_icon{
+        width:100%;
+    }
+    .OurShopeeLogo{
+        width: 140px;
+        height: 48px;
+        padding-bottom: 6px;
+    }
+    .footer_descip{
+        color: #e6e6e6;
+        font-size: 13px;
+        padding-right: 10px;
+        line-height: 20px;
+        font-weight:400;
+    }
+    .footerHeading{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        color: #FFFFFF;
+        padding-bottom: 4%;
+       
+    }
+    .sosalmidiaimg{
+        padding-top: 26px;
+    }
+
+    .facebook{
+        width: 12.85px;
+        height: 24px;
+        padding-right: 15.5px;
+    }
+    .email_id{
+        margin-top: 7%;
+       
+    
+    }
+    .frameicon{
+        color: #fff;
+        background: #0055B8;
+    }
+    .Newsletter{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        color: #FFFFFF;
+        
+    }
+    
+    .massages{
+        font-weight: 700;
+        font-size: 14px;
+        color: #FFFFFF;
+        line-height: 19px;
+        font-style: normal;
+       
+    }
+    .midiacont{
+        padding-top: 3%;
+    }
+    .contact{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        //padding-left: 5%;
+    }
+     .horrizontal_line{
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        margin-top: 5%;
+    }
+    .horrizontal_line{
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        margin-top: 5%;
+    }
+     .footer_component{
+        color: #FFFFFF;
+        float: right;
+        //padding-top: 3%;
+    }
+    .appimg{
+        display: flex;
+        gap: 16px;
+        width: 320px;
+        height: 64px;        
+
+    }
+    
+    .middle_paragraph{
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 19px;
+        gap: 10px;
+        border-top: 1px solid #ffffff66;
+        border-bottom: 1px solid #ffffff66;
+        padding: 32px 0px;
+        
+        
+    }
+    .dddddd{
+        color: #FFFFFF;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .dddddd:first-child{
+        padding: 10px 10px 10px 0px;
+    }
+    .ourshop_com{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.6);
+        //padding-left: 75%;
+    }
+    .secondfooterHeading{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        color: #FFFFFF;
+        padding-top: 15%;
+
+    }
+    .Connectwithus{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        color: #FFFFFF;
+        //padding-top: 5%;
+    }
+    .Reachout{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;
+        color: #EEEEEE;
+        margin-top: -4%;
+    }
+    
+     @media screen and (max-width: 2560px){
+        
+        .wearealways{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 22px;
+            color: #FFFFFF;
+            padding-bottom: 4%;
+           // padding-top: 5%;
+        }
+        .secondfooterHeading {
+            padding-top: 3%;
+        }
+        
+    } 
+    @media screen and (max-width: 1440px){
+        
+        /* .secondfooterHeading {
+            padding-top: 9%;
+        } */
+    }
+    @media screen and (max-width: 1326px){
+         .secondfooterHeading {
+            padding-top: 13%;
+        }
+        .wearealways{
+            padding-top: 2%;
+        }
+
+    }
+    @media screen and (max-width: 1024px){
+
+        .middle_paragraph {
+            a{
+                padding:0px 11px;
+            }
+            a:first-child{
+                padding-left: 0px;
+                padding-right: 11px;
+            }
+            a:last-child{
+                padding-left: 11px;
+                padding-right: 0px;
+            }
+        }
+        .secondfooterHeading{
+            padding-top: 21%;
+        }
+        .wearealways{
+            padding-top: 0%;
+        }
+        
+    }
+     
+}
+
+
+.footer_descipt {
+    overflow: hidden;
+    //display: -webkit-box;
+    //-webkit-line-clamp: 3; 
+    //-webkit-box-orient: vertical;
+    //line-height: 1.5em; 
+   // max-height: 4.5em;
+  }
+  .view-more-less-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: blue;
+  }
+  .footer_headg {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    padding-top:10px;
+}
+
+button.view-more-less-btn {
+    color: #ebf3fc;
+    font-size: 12px;
+    padding: 0;
+    text-decoration: underline;
+    border: 0;
+    outline: none;
+    font-weight: 600;
+    font-style: italic;
+}
+h5.footer_headg {
+    padding-top: 0px;
+}
+.footerSecondContainer {
+    .footer_descipt {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

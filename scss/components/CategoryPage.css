@@ -1,0 +1,130 @@
+.categoryPage .subCategorySection {
+  justify-content: center;
+}
+.categoryPage .categoryBanner {
+  /* height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+.categoryPage .categoryBanner img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.categoryPage .categoryBanner .categoryBanner {
+  display: none !important;
+}
+.categoryPage .subCategoryTitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 16px;
+}
+.categoryPage .hotDealSection .card {
+  border: 1px solid #FD7900;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 320px;
+}
+.categoryPage .brandLogos .card {
+  border: 1px solid rgb(50, 13, 154);
+  padding: 24px;
+  max-width: 167px;
+}
+.categoryPage .brandLogos .card img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.categoryPage .subCategoryRow {
+  margin-bottom: 16px;
+  padding: 15px;
+}
+.categoryPage .subCategoryRow .viewAll {
+  background: #ffffff;
+  padding: 6px 10px;
+  color: #040079;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+.categoryPage .subCategoryRow .subCategoryNameTitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+.categoryPage .commonCardimage {
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 211px;
+  background-position: center;
+}
+.categoryPage .displayPrice {
+  color: #333333;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
+.categoryPage .previousPrice {
+  color: #4F4F4F;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+.categoryPage .subCategoryItems {
+  padding: 20px 12px;
+}
+@media (max-width: 991px) {
+  .categoryPage .subCategoryTitle {
+    padding-top: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 12px;
+  }
+  .categoryPage .subCategoryName {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .categoryPage .commonCardimage {
+    min-height: 146px;
+  }
+}
+@media (max-width: 929px) {
+  .categoryPage .brandLogos .card {
+    max-width: 161px;
+  }
+}
+@media (max-width: 530px) {
+  .categoryPage .brandLogos .card {
+    max-width: 152px;
+  }
+}
+@media (max-width: 500px) {
+  .categoryPage .brandLogos .card {
+    max-width: 144px;
+  }
+}
+@media (max-width: 475px) {
+  .categoryPage .brandLogos .card {
+    max-width: 123px;
+  }
+}
+@media (max-width: 375px) {
+  .categoryPage .brandLogos .card {
+    max-width: 152px;
+  }
+}
+@media (max-width: 325px) {
+  .categoryPage .brandLogos li {
+    width: 132px !important;
+  }
+  .categoryPage .brandLogos .card {
+    max-width: 123px;
+  }
+}/*# sourceMappingURL=CategoryPage.css.map */

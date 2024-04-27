@@ -1,0 +1,56 @@
+@use '../abstracts/spacingVariable.scss';
+
+.banner_list{
+    margin-top: spacingVariable.$largeSpacing;
+    .card{
+        margin-bottom: 8px;
+    }
+    .card, .card-img-top{
+        border: none;
+        border-radius: 8px;
+        
+    }
+
+    @media screen and (max-width: 768px) {
+       .banner_column:first-child, .banner_column:nth-child(3){
+        padding: 1px;
+        // padding-left: 16px;
+        // padding-right: 4px;
+       }
+       .banner_column:nth-child(2), .banner_column:last-child{
+        //padding-right: 16px;
+        // padding-left:4px;
+        padding: 1px;
+       }
+       .banner_column:nth-child(3){
+        // padding-left: 16px;
+        //padding-right: 4px;
+        padding: 1px;
+       }
+       .banner_column:last-child{
+        //padding-right: 16px;
+        // padding-left:4px;
+        padding: 1px;
+       }
+    }
+
+    
+}
+
+@media (max-width:768px) {
+    .banner_list {
+        margin-top:10px;
+    }
+    .dealSection .oldPrice {
+        display: none;
+    }
+    .dealSection {
+        .horizontalCard {
+            .cardData {
+                min-height:138px;
+            }
+        }
+    }   
+
+
+}

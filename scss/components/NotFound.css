@@ -1,0 +1,46 @@
+.noresult-found {
+  width: 100%;
+  background-color: #f5f5f5;
+  display: inline-block;
+}
+.noresult-found .no_result_msg {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Gilroy-Black";
+  margin-right: 75px;
+  color: #333;
+  padding: 15px 0;
+}
+.noresult-found .noresult-inner .button-link:hover {
+  background-color: #024284;
+}
+.noresult-found .noresult-inner .button-link {
+  margin-right: 86px;
+  padding: 0 50px;
+  width: 25%;
+  background: #c90101;
+  text-decoration: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 16px;
+  text-shadow: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  white-space: nowrap;
+}
+.noresult-found .button-link:hover, .noresult-found .button:hover, .noresult-found .checkout-button {
+  background-color: #c90101;
+  text-shadow: none;
+  color: #fff;
+}
+.noresult-found button:active, .noresult-found button:hover {
+  outline: 0;
+  text-decoration: none;
+}/*# sourceMappingURL=NotFound.css.map */

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+.TermsandConditions {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding-top: 3%;
+}
+.TermsandConditions .ulimg {
+  list-style: none;
+  padding-left: 0;
+}
+.TermsandConditions .ulimg li {
+  position: relative;
+  padding-left: 30px;
+}
+.TermsandConditions .ulimg li:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-image: url("../../public/Assets/hand-point-right.png");
+  left: 0;
+}
+.TermsandConditions .titlehead {
+  /*  padding-right: 7px;
+   font-size: 17px;
+   font-weight: 600;
+   color: #000;
+   margin: 20px 0 15px; */
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  margin: 20px 0 15px;
+}
+.TermsandConditions p {
+  /* color: #666;
+  font-size: 12px;
+  margin: 14px 0;
+  font-weight: 300;
+  line-height: 24px; */
+  font-size: 12px;
+  line-height: 24px;
+  color: #666;
+}
+.TermsandConditions li {
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+}
+.TermsandConditions .tikparagraph li:before {
+  content: "✓";
+  color: #c90101;
+}
+.TermsandConditions .tikparagraph li:before {
+  content: circle;
+}
+.TermsandConditions .tikparagraph {
+  margin: 12px 0;
+  color: #333;
+  font-size: 14px;
+  padding-left: 5%;
+}
+.TermsandConditions .phika {
+  color: #666;
+}
+.TermsandConditions .textpara {
+  padding-left: 5%;
+}/*# sourceMappingURL=TermsandConditions.css.map */

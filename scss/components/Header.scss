@@ -1,0 +1,58 @@
+.header{
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 999;
+}
+.editClass{
+    cursor: pointer;
+}
+.addressScroll{
+    /* max-height: 120px;
+    overflow-y: scroll; */
+
+    .addressCarousel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 7px 5px;
+        gap: 4px;
+        width: 97% !important;
+        margin: 3px;
+        height: 126px;
+        border: 1px solid #E0E0E0;
+        border-radius: 8px;
+    }
+    .addresshead{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        color: #333;
+    }
+    .addressText{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #333333;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        height: 30px;
+
+    }
+    @media (min-width: 991px) {
+        .addressCarousel{
+            width: 225px !important;
+        }
+    }
+}
+/* .addressScroll::-webkit-scrollbar {
+    width: 2.5px;
+}
+.addressScroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 15px #c90101;
+} */

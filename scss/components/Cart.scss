@@ -1,0 +1,475 @@
+.cartSection{
+    span{
+        font-family: 'Poppins', sans-serif;
+    }
+   
+    .badge1{
+        background: #EB5757;
+        color: #FFFFFF;
+        position: absolute;
+        right: 9px;
+        border-radius: 50%;
+        padding: 1px 6px;
+        font-size: 12px;
+        bottom: 25px;
+        //margin-left: 14px;
+    } 
+    @media (max-width: 992px){
+        span {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            padding-top: 3px;
+        }
+    }
+    @media (max-width: 784px){
+        .badge1{
+            right: 13% !important;
+        }
+    }
+    @media (max-width: 620px){
+        .badge1{
+            right: 12% !important;
+        }
+    }
+    @media (max-width: 475px){
+        .badge1{
+            right: 11% !important;
+        }
+    }
+    @media (max-width: 395px){
+        .badge1{
+            right: 10% !important;
+        }
+    }
+    @media (max-width: 345px){
+        .badge1{
+            right: 9% !important;
+        }
+    }
+    @media (min-width:"1440px") {
+        .badge1{
+            right: 6% !important;
+        }
+    }
+}
+#checkoutModel{
+    transform: translate(0, 0);
+    
+    // overflow-x: hidden;
+    // overflow-y: hidden;
+    // padding: 0 !important;
+    
+    .modal-content {
+        border: 0;
+        box-shadow: none;
+    }
+    .scroll{
+        max-height: 100vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        bottom: 0px;
+        top: 0;
+        padding: 0px;
+    }
+    .accordion{
+        margin-bottom: 20px;
+        padding: 0;
+    transition: max-height 0.2s ease-out;
+    border: 0;
+    margin: 0px 0 12px;
+    box-shadow: none;
+    }
+    .accordion-button{
+        // background: #afede7;
+        color: #040079;
+    cursor: pointer;
+    /* width: 96%; */
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 13px;
+    transition: 0.4s;
+    font-weight: 600;
+    }
+    // .accordion-item:last-of-type .accordion-collapse{
+    //     min-height: 180px;
+    // }
+    // .login{
+    //     margin: 0 12px 15px;
+    // }
+}
+.emptycart{
+    margin-top: 57px;
+}
+.custom-dialog {
+    z-index: 9999999 !important;
+    right: -34% !important;
+    min-width: 38% !important;
+    width: 480px !important;
+    height: 60vh;
+    top: -48px;
+    padding: 20px !important;
+    
+}
+// .custom-dialog1 {
+//     z-index: 9999999 !important;
+//     right: -34% !important;
+//     min-width: 38% !important;
+//     width: 480px !important;
+//     height: 60vh;
+//     top: 7px;
+//     padding: 20px !important;
+    
+// }
+@media (min-width:"1024px") {
+    .custom-dialog {
+        right: -29% !important;
+    }
+}
+@media (min-width:"1336px") {
+    .custom-dialog {
+        right: -34% !important;
+    }
+}
+@media (min-width:"1440px") {
+    .custom-dialog {
+        right: -33% !important;
+    }
+}
+@media (min-width:"1900px") {
+    .custom-dialog {
+        right: -32% !important;
+    }
+}
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+
+.emptycart{
+    margin-top: 57px;
+}
+
+#popover{
+    transform: translateX(83px, 744px, 0px) !important;
+    // transform: translate3d(230px, 872px, 0px) !important;
+}
+
+
+@media (min-width: '768px') {
+    #popover{
+        width: 1000px;
+        right: auto !important;
+        left: 0 !important;
+    }
+}
+.product-shop-main{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+    .centerCarausel ul{
+        width: unset;
+    }
+    .product-shop{
+        text-transform: capitalize;
+        font-size: 18px;
+        color: #403f41;
+        text-align: center;
+        padding: 15px;
+        font-weight: 600;
+        margin: 0;
+    }
+        ul{
+            white-space: normal;
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+            padding: 0;
+            overflow-x: auto;
+            font-size: 0;
+            letter-spacing: -1em;
+            word-spacing: -1em;
+        }
+        li{
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            font-size: 1rem;
+            letter-spacing: normal;
+            word-spacing: normal;
+        }
+        /* .col-md-2{
+            width: 12.333%;
+            float: none;
+            padding: 0 10px 15px;
+            margin: 0;
+        } */
+        .list-col{
+            //width: 12.333%;
+            float: none;
+            padding: 0 10px 15px;
+            margin: 0;
+        }
+        .category_image1{
+            border: 1px solid #d1d1d1;
+            padding: 10px;
+            margin-left: 10px;
+            border-radius: 30px 0;
+            background: #e7e7e7;
+            text-align: -webkit-match-parent;
+        }
+        .category_image1 img{
+            border-radius: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        .sub-category-name1{
+            font-size: 12px;
+            text-align: center;
+            white-space: normal;
+            padding: 10px 0 0;
+            color: #333;
+            height: 46px;
+            overflow: hidden;
+            text-transform: capitalize;
+            line-height: 17px;
+        }
+      
+    
+}
+
+  .model-b {
+    .modal-header{
+        padding: 0px !important;
+        .btn-close{
+            border-bottom: 1px solid #d4ddf4;
+            background-color: #f8faff;
+            color: #000;
+            padding: 16px;
+            margin-right: 10px;
+            border-radius: 0%;
+        }
+    }
+        .modal-title{
+            width: 100%;
+            padding: 14px 15px;
+            margin: 0;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: capitalize;
+            border-bottom: 1px solid #d4ddf4;
+            background-color: #f8faff;
+            color: #000;
+        }
+        .text{
+            text-align: center;     
+            font-size: 15px;
+            font-weight: 600;
+            color: #444;
+            margin: 0 0 10px;
+      }
+      .des{
+        font-size: 12px;
+        text-align: center;
+        margin: 0;
+        color: #6b6b6b;
+        line-height: 18px;
+      }
+      .otpbox{
+        display: flex;
+        justify-content: center;
+      }
+      .otpinputBox input{
+        width: 62px !important;
+        height: 62px;
+        margin: 15px 10px 15px 0;
+        color: #333;
+        float: left;
+        line-height: 38px;
+        border-radius: 2px;
+        border: 1px solid #d9ddea;
+        text-align: center;
+        font-weight: 800;
+        color: #000;
+        font-size: 18px;
+        font-family: Gilroy-bold;
+      }
+      .greenbox{
+        background: #0153a9;
+        border: none;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 800;
+        height: 44px;
+        margin: 0 10px 0 0;
+        text-transform: uppercase;
+        transition: all .3s ease 0s;
+        width: auto;
+        padding: 16px 40px;
+        //float: right;
+      }
+      .resendLink{
+        cursor: pointer;
+        color: #0153a9;
+        padding-top: 5px;
+        font-size: 14px;
+        margin:15px 10px;
+        font-weight: 500;
+        border: 0;
+        background: none;
+        outline: 0;
+      }
+      .otpFooter{
+        display: block; 
+        text-align: center;
+      }
+      
+      .clickHere{
+        cursor: pointer;
+        color: #3866df;
+        font-weight: 500;
+        margin: 0 0 0 2px;
+        text-decoration: underline;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+
+//otp timer style
+.otp_timer {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+.resendLink {
+    font-size: 14px;
+    margin: 15px;
+    font-weight: 500;
+}
+
+
+.model-b {
+    .ph-whts {
+        svg {
+            color:#25D366;
+            font-size:16px;
+        }          
+    }
+    .ph-txt {
+        svg {
+            color:#d49f08;
+            font-size:16px;
+        }          
+    }
+}
+
+
+
+@media (max-width: '478px') {
+    
+    .model-b {
+        .resendLink{
+            padding-top: 0;
+            margin: 12px 0px 0;
+
+            &:last-child {
+                margin-bottom:15px;
+            }
+        }
+    }
+}
+
+
+/* CustomTooltip.css */
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+  }
+.tooltip-text {
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    bottom: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    width: 100%;
+    font-size: 12px;
+}
+.custom-tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Define the shaking animation for the cart button */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    50% { transform: translateX(8px); }
+    75% { transform: translateX(-8px); }
+    100% { transform: translateX(0); }
+  }
+  
+  /* Apply the shaking animation to the element with the 'shake-effect' class */
+  .shake-effect {
+    animation:shake 0.15s;
+  }
+
+
+/* styles.css (or your custom CSS file) */
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loading-animation .loading-spinner {
+    position: relative;
+  }
+  
+  .loading-animation .spinner {
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-top: 3px solid #007bff; /* Change the color as per your design */
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+

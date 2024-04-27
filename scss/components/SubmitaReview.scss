@@ -1,0 +1,157 @@
+.SubmitaReview{
+    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins';
+    font-style: normal;
+    .honetitle{
+        margin: 40px 0;
+        color: #024284;
+        margin: 20px 0 0;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .htwo{
+
+        font-weight: 600;
+        color: #000;
+        margin: 20px 0;
+        text-align: left;
+        font-size: 20px;
+    }
+    .hthree{
+        font-weight: 600;
+        font-size: 16px;
+        color: #000;
+    }
+    li{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .fontbold{
+        color: #555;
+        font-weight: bold;
+        margin: 10px auto 20px;
+        font-size: 20px;
+        padding-top: 4%;
+    }
+    .submit:hover{
+        background: #0153a9;
+    }
+
+    .submit{
+        background: #EB5757;
+        border: medium none;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        padding: 8px 32px;
+        color: #FFFFFF;
+    }
+    .textarea{
+        background: #f2f2f2;
+        box-shadow: none !important;
+        
+    }
+    .submitpage{
+        margin: 6px 0 18px;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 600;
+        color: #000;
+       
+    }
+    .star{
+        color: red;
+    }
+    .filltext{
+        font-size: 12px;
+        color: #333333;
+        font-weight: 500;
+        line-height: 18px;
+        box-shadow: none !important;
+        background: #F9F9F9;
+        border: 1px solid #E0E0E0;
+        border-radius: 4px;
+    }
+    .Captcha{
+        font-size: 12px;
+        color: #333333;
+        font-weight: 500;
+        line-height: 18px;
+        box-shadow: none !important;
+        background: #F9F9F9;
+        border: 1px solid #E0E0E0;
+        border-radius: 4px;
+    }
+    .EnterCaptcha{
+        height: 38px;
+        padding: 0 0.5em 0.1em 1em;
+        font-size: 13px;
+        font-weight: 600;
+        color: #333;
+       border-color: #333; 
+    }
+    .navnavtabs{
+        padding: 40px 15px;
+        border: 1px solid #ddd;
+        
+    }
+    .hrline{
+        margin-top: 6%;
+       
+    }
+    .inputbordernone{
+        background: border-box !important;
+        box-shadow: none !important;
+        border-color: #333;
+    }
+    
+    .imagecaptcha{
+        height: 30px;
+        margin-top: -7%;
+        width: 80px;
+    }
+    .TextName{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #333333;
+    }
+    @media screen and (max-width: 991px) {
+        .Captcha{
+            width: 90%;
+            margin-left: 9%;
+        }
+        .imagecaptcha {
+            height: 33px;
+            margin-top: -13%;
+            width: 85px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .Captcha{
+            width: 86%;
+            margin-left: 14%;
+        }
+        .imagecaptcha {
+            height: 31px;
+            margin-top: -13%;
+            width: 75px;
+        }
+    }
+    @media screen and (max-width: 425px) {
+        .Captcha{
+            width: 100%;
+            margin-left: 0%;
+            margin-top: -3%;
+        }
+       .imagecaptcha {
+            width: 100px;
+        }
+        .breadcrumb{
+            margin-top: -6%;
+        } 
+    }
+}

@@ -1,0 +1,149 @@
+.SellWithUs {
+  /* .backcolorsize{
+      border-radius: 50%;
+      padding: 48px 26px;
+      background-color: #c4edf3;
+      text-align: center;
+  }*/
+  /* @media screen and (max-width: 425px){
+      .imgcerle{
+          width: 90%;
+      }
+  } */
+  /* @media screen and (max-width: 768px){
+      .imgcerle{
+          width: 60%;
+      }
+  }
+
+  @media screen and (max-width: 375px){
+      .imgcerle{
+          width: 70%;
+      }
+  }
+  @media screen and (max-width: 320px){
+      .imgcerle{
+          width: 75%;
+      }
+  } */
+}
+.SellWithUs .sellwithusimg {
+  width: 100%;
+}
+.SellWithUs .WhyToSell {
+  color: #000;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.SellWithUs .backcolor {
+  border-radius: 50%;
+  padding: 10%;
+  background-color: #c4edf3;
+  width: 65%;
+  margin-left: 18%;
+}
+.SellWithUs .backcolorcerle {
+  border-radius: 50%;
+  padding: 10%;
+  background: #FDFFEB;
+  width: 65%;
+  margin-left: 18%;
+}
+.SellWithUs .colorcerle {
+  border-radius: 50%;
+  background: #FDFFEB;
+  padding: 30px;
+}
+.SellWithUs h6 {
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 17px;
+  color: #000;
+}
+.SellWithUs p {
+  text-align: center;
+  padding-top: 0px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000;
+}
+.SellWithUs .imgcerle {
+  width: 100%;
+}
+.SellWithUs .backcimgcerle {
+  border-radius: 50%;
+  background-color: #c4edf3;
+  padding: 30px;
+}
+.SellWithUs .backcolorsize {
+  padding: 19px;
+}
+.SellWithUs .paracenter {
+  width: 64%;
+  margin-left: 17%;
+}
+.SellWithUs .dashedbox {
+  color: #000000;
+  border-radius: 0;
+  margin: 27px;
+  padding: 14px 28px 25px;
+  text-align: center;
+  margin-left: 33%;
+  background: #FFF1EB;
+  width: 35%;
+}
+.SellWithUs .submitbutton:hover {
+  background: #0153a9;
+}
+.SellWithUs .submitbutton {
+  background: #c90101;
+  border: medium none;
+  border-radius: 3;
+  box-shadow: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 38px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+.SellWithUs .RegisterNow:hover {
+  color: #c90101;
+}
+.SellWithUs .RegisterNow {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s ease 0s;
+  color: #0055B8;
+  text-decoration: none !important;
+}
+@media screen and (max-width: 991px) {
+  .SellWithUs .backcolor {
+    width: 20%;
+    margin-left: 39%;
+  }
+  .SellWithUs .backcolorsize {
+    padding: 0 40%;
+    /* width: 20%;
+    margin-left: 39%; */
+  }
+  .SellWithUs .backcimgcerle {
+    width: 25%;
+    margin-left: 37%;
+    padding: 5%;
+  }
+  .SellWithUs .backcolor {
+    width: 25%;
+    margin-left: 37%;
+    padding: 5%;
+  }
+  .SellWithUs .dashedbox {
+    margin-left: 3%;
+  }
+}/*# sourceMappingURL=SellWithUs.css.map */

@@ -1,0 +1,109 @@
+@use '../abstracts/colorVariable.scss';
+@use '../abstracts/spacingVariable.scss';
+@use '../abstracts/fontVariable.scss';
+
+.vectorCategory{
+   margin-top:spacingVariable.$largeSpacing;
+    .react-multi-carousel-item{
+        width: 173px !important;
+    }
+    .categorytool{
+        padding: 16px 12px;
+        width: 100%;
+        max-width: 152px;
+        height: 140px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        align-items: center;
+        //border: none !important;
+        text-decoration: none !important;
+        border: 1px solid colorVariable.$borderColorgrey;
+        border-radius: 8px;
+
+        @media (max-width: 991px){
+            padding: 6px 0px;
+        }
+        gap: 4px;
+        color: #333333;
+
+        .categoryimage{
+           width:75%;
+           min-width: 80px;
+           @media (max-width: 991px){
+            min-width: 70px;
+           }
+        }
+    
+       
+        .categoryname{
+            text-decoration: none !important;
+           // color: #333333;
+            color: colorVariable.$prodNameColor;
+            padding-top: 8px;
+        }
+    }
+    @media (max-width: 991px){
+        margin-top:spacingVariable.$SmallSpacing;
+        //padding: 11px 0px 16px 0px;
+        .react-multi-carousel-item{
+            width: 129px !important;
+        }
+        .categorytool{
+            max-width: 117px;
+            height: 112px;
+        }
+        .categoryname{
+            font-size: 10px;
+            line-height: 10px;
+        }
+        
+    }
+    @media (max-width: 768px){
+        .react-multi-carousel-item{
+            width: 128px !important;
+        }
+    }
+    @media (max-width: 425px){
+        .react-multi-carousel-item{
+            width: 115px !important;
+        }
+        .categorytool{
+            max-width: 104px;
+            height: 104px;
+        }
+    }
+    @media (max-width: 375px){
+        .react-multi-carousel-item{
+            width: 113px !important;
+        }
+        .categorytool{
+            max-width: 104px;
+        }
+    }
+    @media (max-width: 320px){
+        .react-multi-carousel-item{
+            width: 100px !important;
+        }
+        .categorytool{
+            max-width: 90px;
+            height: 103px;
+        }
+    }
+
+}
+
+/* @media (min-width: 991px) {
+    .categorytool{
+        padding: 16px 12px;
+        font-size: 12px;
+        gap: 8px;
+        width: 152px;
+        height: 130px !important;
+        margin-top: 24px;
+        margin-bottom: 34px;
+    }
+   
+    
+} */

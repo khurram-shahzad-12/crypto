@@ -1,0 +1,109 @@
+.MyOrders {
+  /* .strongtext{
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: #333333;
+  } */
+}
+.MyOrders .Reference {
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 16px;
+  width: 100%;
+  background: #F9F9F9;
+}
+.MyOrders .OrderTotal {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #C10C11;
+}
+.MyOrders .tvimg {
+  width: 100%;
+}
+.MyOrders .border {
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+}
+.MyOrders .Smart {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+.MyOrders .Processing {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #219653;
+}
+.MyOrders .doticon {
+  color: #219653;
+}
+.MyOrders .basicbutton {
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  width: 143px;
+  height: 32px;
+  background: #085073;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.MyOrders .impitybutton {
+  align-items: center;
+  padding: 6px 16px;
+  width: 140px;
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #085073;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #085073;
+}
+.MyOrders .verticalline {
+  border: 2px solid #219653;
+}
+.MyOrders .checkcercle {
+  color: #219653;
+}
+.MyOrders .orderprogress {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #333333;
+}
+.MyOrders .monthdate {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #828282;
+}
+.MyOrders .Afsal {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+}
+.MyOrders .totalaed {
+  padding-top: 20%;
+  padding-left: 48%;
+}
+.MyOrders .vrlion {
+  border-right: 1px solid;
+  height: 100%;
+}
+.MyOrders .textblue {
+  font-weight: 600;
+  line-height: 21px;
+  color: #085073;
+}/*# sourceMappingURL=MyOrders.css.map */

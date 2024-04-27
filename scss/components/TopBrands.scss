@@ -1,0 +1,81 @@
+.carouselColor{
+    padding: 4px;
+    //background: #EBF8FF;
+    border-radius: 6px;
+
+    .card{
+        width: 80%;
+    }
+    //position: unset !important;
+    .backcolor{
+        // padding: 8px;
+        // // width: 1032px;
+        // // height: 48px;
+        // background: #EBF8FF;
+        // border-radius: 6px;
+    }
+    .react-multi-carousel-track{
+        align-items: center;
+    }
+    .brandImage{
+        border: none;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .react-multi-carousel-list{
+        position: unset !important;
+      }
+    
+    .react-multi-carousel-dot-list{
+        // background:#0D69E0;
+        // width: 20px;
+        // height: 10px;
+        // border-radius: 4px;
+        position: unset !important;
+    }
+    .appleimg{
+        width: 100%;
+        background: #FFFFFF;
+        padding: 2px;
+    }
+    // .react-multi-carousel-dot button {
+    //     border-color: #E0E0E0;
+    //     width: 18px;
+    //     height: 9px;
+    //     border-radius: 4px;
+    // }
+    
+    .react-multi-carousel-dot--active button {
+        background:#0D69E0 !important;
+        
+    }
+    
+   
+    
+    
+}
+
+@media (min-width: 992px){
+    .carouselColor{
+        padding: 8px;
+        
+    }
+    .appleimgCon{
+        padding: 0px;
+        width: 100px;
+        height: 52px;
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+   
+}
+
+@media only screen and (max-width: 992px) and (min-width: 767px)  {
+    .carouselColor{
+        .card{
+            width: 65% ;
+        }
+    }
+}

@@ -1,0 +1,69 @@
+.MyAccount ul {
+  padding-left: unset;
+}
+.MyAccount ul li {
+  padding: 11px 18px;
+  border: 1px solid #F2F2F2;
+}
+.MyAccount .active {
+  background: #EBEBFF;
+  font-weight: 500;
+  color: #040079;
+}
+.MyAccount .fillform {
+  width: 100%;
+}
+.MyAccount .formname {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+}
+.MyAccount .MyProfile {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+}
+.MyAccount .orders {
+  font-weight: 500;
+  line-height: 18px;
+  color: #4F4F4F;
+  cursor: pointer;
+}
+.MyAccount .greenbox {
+  color: #FFFFFF;
+  background: #27AE60;
+  border-radius: 6px;
+  padding: 8px 32px;
+  border: none;
+}
+.MyAccount .bluebox {
+  color: #FFFFFF;
+  background: #0055B8;
+  border-radius: 6px;
+  padding: 8px 32px;
+  border: none;
+  margin-left: -63%;
+}
+.MyAccount .twobox {
+  padding-top: 2%;
+}
+@media screen and (max-width: 1424px) {
+  .MyAccount .bluebox {
+    margin-left: -51%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .MyAccount .greenbox {
+    width: 100%;
+    margin-left: 2%;
+    padding: 8px 32px;
+  }
+  .MyAccount .bluebox {
+    width: 100%;
+    margin-left: 2%;
+    padding: 8px 32px;
+    margin-top: 4%;
+  }
+}/*# sourceMappingURL=MyAccount.css.map */

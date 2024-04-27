@@ -1,0 +1,116 @@
+.yellowOutlineCard img {
+  width: 100%;
+  padding: 5px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.yellowOutlineCard .card {
+  border-radius: 12px;
+  padding-top: 9px;
+  text-align: center;
+}
+.yellowOutlineCard .countDownSimplify {
+  background: #EB5757;
+  color: #ffffff;
+  padding: 4px 8px 4px 6px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.yellowOutlineCard .productName {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333333;
+  margin-top: 16px;
+  padding: 0px 16px;
+}
+.yellowOutlineCard .productName span {
+  height: 44px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.yellowOutlineCard .hotPrice {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #24247E;
+  margin-top: 16px;
+}
+.yellowOutlineCard .add-to-cart {
+  border: 1px solid #F2994A;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F2994A;
+}
+.yellowOutlineCard .addToCartSection {
+  padding: 0px 16px;
+  margin-top: 16px;
+  margin-bottom: 23px;
+  justify-content: center;
+}
+.yellowOutlineCard .add-to-cart:hover {
+  color: #ffffff;
+  background-color: #F2994A;
+}
+@media (max-width: 992px) {
+  .yellowOutlineCard .columnYellow {
+    gap: 16px;
+  }
+  .yellowOutlineCard .card {
+    margin-bottom: 15px;
+  }
+  .yellowOutlineCard .card img {
+    height: 148px;
+  }
+  .yellowOutlineCard .countDownSimplify {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    padding: 0px 3px;
+  }
+  .yellowOutlineCard .productName {
+    margin-top: 10px;
+    font-size: 11px;
+    line-height: 15px;
+    padding: 0px 8px;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .yellowOutlineCard .hotPrice {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .yellowOutlineCard .addToCartSection {
+    margin-top: 8px;
+  }
+  .yellowOutlineCard .addToCartSection .add-to-cart {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 6px 24px;
+  }
+}
+@media (max-width: 375px) {
+  .yellowOutlineCard .addToCartSection .add-to-cart {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+  .yellowOutlineCard .countDownSimplify {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=YellowOutlineCard.css.map */

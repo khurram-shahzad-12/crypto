@@ -1,0 +1,20 @@
+.Blue_banner{
+    .Blue_img{
+        width: 1118px;
+        padding-top: 30px;
+        //height: 160px;
+    }
+    @media screen and (max-width: 1024px){
+        .Blue_img{
+            width: 935px;
+           
+        }
+    }
+    @media screen and (max-width: 991px){
+        .Blue_img{
+            width: 100%;
+            padding-top: 3%;
+            
+        }
+    }
+}

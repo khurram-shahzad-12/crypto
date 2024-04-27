@@ -1,0 +1,34 @@
+.divLargeTitle {
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 44px;
+}
+
+.divMediumTitle {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 33px;
+}
+
+.divSmallTitle {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.subheadingStyle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headingview_all {
+  font-weight: 700;
+  font-size: 16px;
+  color: #0D69E0;
+}/*# sourceMappingURL=CommonClass.css.map */

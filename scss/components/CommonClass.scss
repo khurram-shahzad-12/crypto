@@ -1,0 +1,40 @@
+@use '../abstracts/colorVariable.scss';
+@use '../abstracts/fontVariable.scss';
+
+
+.divLargeTitle{
+    color: colorVariable.$prodNameColor;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: fontVariable.$overWeight;
+    font-style: normal;
+    line-height: fontVariable.$extraLargeLineheight;
+}
+.divMediumTitle{
+    color: colorVariable.$titleColor;
+    font-size: 22px;
+    font-weight: fontVariable.$overWeight;
+    font-style: normal;
+    line-height: fontVariable.$largeLineHeight;
+}
+.divSmallTitle{
+    color: colorVariable.$titleColor;;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+.subheadingStyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.headingview_all{
+    font-weight: fontVariable.$overWeight;
+    font-size: fontVariable.$smallfont;
+    color: colorVariable.$blueColor;
+}
+.smallfont{
+    font-size: fontVariable.$smallfont;
+    font-weight: 400;
+}

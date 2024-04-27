@@ -1,0 +1,33 @@
+.SiteMapFixed{
+    font-family: 'Poppins';
+    font-style: normal;
+    padding-top: 2%;
+    .categoryName{
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        color: #333333;
+    }
+    .arrow{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #4F4F4F;
+        margin-left: -6%;
+        padding-left: 2%;
+    }
+    .arrow::marker {
+        content: "⇾";
+        //background-image: url(/public/Assets/Union.png);
+        font-size: 20px;
+        color: #4F4F4F;
+        
+    }
+    .nextpage{
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        color: #333333;
+        padding-left: 13px;
+    }
+}

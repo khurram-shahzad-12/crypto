@@ -1,0 +1,143 @@
+.yellowOutlineCard{
+    img{
+        width: 85%;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+    .dummy-image{
+        width: 200px;
+        height: 300px;
+    }
+    .card{
+        border-radius: 12px;
+        padding-top: 9px;
+        text-align: center;
+    }
+    .countDownSimplify{
+        background: rgba(201,1,1,0.8);;
+        color: #ffffff;
+        //text-align: center;
+        padding: 4px 8px 4px 6px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 16px;
+        font-family: 'Poppins',sans-serif;
+    }
+    .productName{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        //text-align: center;
+        color: #333333;
+        margin-top: 16px;
+        padding: 0px 16px;
+        //height: 32px;
+        span{
+
+            height: 44px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            
+        }
+    }
+    .hotPrice{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        //text-align: center;
+        color: #24247E;
+        margin-top: 16px;
+    }
+    .add-to-cart{
+        border: 1px solid #0153a9;
+         border-radius: 0px;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 14px;
+        color: #0153a9;
+        width: 85%;
+       // padding: 8px 32px;
+    }
+    .addToCartSection{
+        // padding: 0px 16px;
+        margin-top: 16px;
+        margin-bottom: 23px;
+        justify-content: center;
+    }
+    .add-to-cart:hover{
+        color: #ffffff;
+        background-color: #0153a9;
+    }
+
+    @media (max-width: 992px) {
+        .columnYellow{
+            padding: 2%;
+            gap: 16px;
+        }
+        .columnBlue{
+            width:50% !important
+          }
+        .card{
+            margin-bottom: 15px;
+            img{
+                //height: 148px;
+            }
+        }
+        .countDownSimplify{
+            font-size: 14px;
+            line-height: 20px;
+            margin-top: 10px;
+            padding: 0px 3px;
+        }
+        .productName{
+            margin-top: 10px;
+            font-size: 11px;
+            line-height: 15px;
+            padding: 0px 8px;
+            height: 30px;
+            overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+           
+
+        }
+        .hotPrice{
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .addToCartSection{
+            margin: 8px;
+            .add-to-cart{
+                font-size: 12px;
+                line-height: 20px;
+                padding: 6px 24px;
+            }
+        }
+        
+    }
+    @media (max-width: 375px){
+        .addToCartSection .add-to-cart{
+            font-size: 11px;
+            padding: 6px 7px;
+        }
+        .countDownSimplify{
+            font-size: 12px;
+        }
+    }
+    @media (max-width: 320px){
+        .add-to-cart{
+            padding: 2px;
+        }
+    }
+}
+
+.columnBlue{
+    width:20% !important
+  }

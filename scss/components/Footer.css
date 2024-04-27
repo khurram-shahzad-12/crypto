@@ -1,0 +1,199 @@
+.footerContainer {
+  background: #EBF8FF;
+  padding: 56px 0px !important;
+}
+.footerContainer .footerHead {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  padding-bottom: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.footerContainer .items {
+  font-weight: 400;
+  font-size: 13px;
+  color: #4F4F4F;
+  text-decoration: none;
+}
+.footerContainer ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------SecondContainer--------- */
+.footerSecondContainer {
+  background: #00142F;
+  padding: 56px 0px !important;
+}
+.footerSecondContainer .apple_icon {
+  width: 100%;
+}
+.footerSecondContainer .OurShopeeLogo {
+  width: 140px;
+  height: 48px;
+  padding-bottom: 6px;
+}
+.footerSecondContainer .footer_descip {
+  color: #ffffff;
+  font-size: 13px;
+  padding-right: 10px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.footerSecondContainer .footerHeading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding-bottom: 4%;
+}
+.footerSecondContainer .sosalmidiaimg {
+  padding-top: 26px;
+}
+.footerSecondContainer .facebook {
+  width: 12.85px;
+  height: 24px;
+  padding-right: 15.5px;
+}
+.footerSecondContainer .email_id {
+  margin-top: 7%;
+}
+.footerSecondContainer .frameicon {
+  color: #fff;
+  background: #0055B8;
+}
+.footerSecondContainer .Newsletter {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.footerSecondContainer .massages {
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 19px;
+  font-style: normal;
+}
+.footerSecondContainer .midiacont {
+  padding-top: 3%;
+}
+.footerSecondContainer .contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 5%;
+}
+.footerSecondContainer .horrizontal_line {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  margin-top: 5%;
+}
+.footerSecondContainer .horrizontal_line {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  margin-top: 5%;
+}
+.footerSecondContainer .footer_component {
+  color: #FFFFFF;
+  float: right;
+}
+.footerSecondContainer .appimg {
+  display: flex;
+  gap: 16px;
+  width: 320px;
+  height: 64px;
+}
+.footerSecondContainer .middle_paragraph {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 19px;
+  gap: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 32px 0px;
+}
+.footerSecondContainer .dddddd {
+  color: #FFFFFF;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.footerSecondContainer .dddddd:first-child {
+  padding: 10px 10px 10px 0px;
+}
+.footerSecondContainer .ourshop_com {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footerSecondContainer .secondfooterHeading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding-top: 15%;
+}
+.footerSecondContainer .Connectwithus {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.footerSecondContainer .Reachout {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #EEEEEE;
+  margin-top: -4%;
+}
+@media screen and (max-width: 2560px) {
+  .footerSecondContainer .wearealways {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-bottom: 4%;
+  }
+  .footerSecondContainer .secondfooterHeading {
+    padding-top: 3%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .footerSecondContainer {
+    /* .secondfooterHeading {
+        padding-top: 9%;
+    } */
+  }
+}
+@media screen and (max-width: 1326px) {
+  .footerSecondContainer .secondfooterHeading {
+    padding-top: 13%;
+  }
+  .footerSecondContainer .wearealways {
+    padding-top: 2%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footerSecondContainer .middle_paragraph a {
+    padding: 0px 11px;
+  }
+  .footerSecondContainer .middle_paragraph a:first-child {
+    padding-left: 0px;
+    padding-right: 11px;
+  }
+  .footerSecondContainer .middle_paragraph a:last-child {
+    padding-left: 11px;
+    padding-right: 0px;
+  }
+  .footerSecondContainer .secondfooterHeading {
+    padding-top: 21%;
+  }
+  .footerSecondContainer .wearealways {
+    padding-top: 0%;
+  }
+}/*# sourceMappingURL=Footer.css.map */

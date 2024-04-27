@@ -1,0 +1,379 @@
+.MyOrders{
+    .Reference{
+        border: 1px solid #E0E0E0;
+        border-radius: 8px;
+        padding: 16px;
+        gap: 16px;
+        width: 100%;
+        //height: 310px;
+        background: #F9F9F9;
+        border-top: 4px solid #0055b8;
+        margin-bottom: 20px;
+        .main-container{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .refText{
+          font-size: 14px;
+          font-weight: 700;
+          color: #222;
+          float: left;
+          text-align: center;
+        }
+        .pleText{
+          font-size: 12px;
+          color: #333;
+        }
+    }
+    .OrderTotal{
+      font-weight: 700;
+      color: #c90101;
+      font-size: 14px;
+      // text-align: center;
+    }
+    .tvimg{
+        width: 50%;
+        text-align: center;
+        //margin-right: -10px;
+    }
+    .border{
+        border: 1px solid #E0E0E0;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    .Smart{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+
+    }
+    .Processing{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #219653;
+    }
+    .doticon{
+        color: #219653;
+    }
+    .basicbutton{
+        text-align: center;
+        padding: 6px;
+        height: 32px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        border: 1px solid #085073;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #085073;
+    }
+    .basicbutton:hover{
+        background: #085073;
+        color: #FFFFFF;
+    }
+    .impitybutton{
+        align-items: center;
+        padding: 6px 16px;
+        width: 140px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #085073;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #085073;
+
+    }
+    .verticalline{
+        border: 2px solid #219653;
+    }
+    .checkcercle{
+        color: #219653;
+    }
+    .orderprogress{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #333333;
+
+    }
+    .monthdate{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #828282;
+    }
+    .Afsal{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #333333;
+        margin: 8px 0px;
+    }
+    .totalaed{
+        padding-top: 20%;
+        padding-left: 48%;
+    }
+    .vrlion{
+        border-right: 1px solid #eee;
+        height: 100%;
+
+    }
+    @media (min-width: 320px) and (max-width: 768px) {
+      .vrlion{
+        border-right: 0px solid;
+      }
+    }
+    
+    .textblue{
+        font-weight: 600;
+        //font-size: 14px;
+        line-height: 21px;
+        color: #085073;
+
+    }
+    //STEPPER
+    .stepperCon{
+      display: block;
+      overflow: hidden;
+      padding: 15px;
+      border-bottom: 1px solid #f2f2f2;
+      background: #fffdf2;
+    }
+    .DescriptionName{
+      border-bottom: 1px solid #eee;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    }
+
+.custom-stepper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    //background-color: #000;
+  }
+  
+  .step-container {
+    display: flex;
+    width: 88%;
+    // max-width: 600px;
+    margin-bottom: 16px;
+  }
+  
+  
+  .step {
+    position: relative;
+    width: 26px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #000;
+    background-image: url('../../public/Assets/Tick Circle Fill (1).png');
+    background-repeat: no-repeat;
+    top: 7px;
+    margin-bottom: 10px;
+  }
+  .subTitle{
+    margin-bottom: 68px;
+  }
+  .subTitleMobile{
+    padding: 5px 8px;
+    background: #f2f2f2;
+    border-radius: 6px;
+    margin-left: 27px;
+  }
+  
+  .step.active1 {
+    background-image: url('../../public/Assets/TickCircleFill.png');
+    background-repeat: no-repeat;
+    color: #000;
+  }
+  
+  .step.Cancelled {
+    background-image: url('../../public/Assets/cancel.png');
+    background-repeat: no-repeat;
+    color: #000;
+  }
+  
+  .step.active1:before {
+    //content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(224, 224, 224);
+    transform: translateY(-50%);
+  }
+
+  .stepLine{
+    border:2px solid;
+    width: 100%;
+  }
+  .stepLineMobile{
+    border-left: 2px solid;
+    height: 53px;
+    margin-block: -4px;
+    margin-left: 11px;
+  }
+  .stepLineNone{
+    display: none;
+    border:1px solid;
+    width: 150px;
+  }
+  .stepLineNoneMobile{
+    display: none;
+    border-left: 2px solid;
+    width: 150px;
+  }
+  
+  .step.active1:first-child:before {
+    display: none;
+  }
+  
+  .step.active1:last-child:before {
+    width: 50%;
+  }
+
+  // //progress animation
+  // .progress {
+  //   padding: 6px;
+  //   background: rgba(0, 0, 0, 0.25);
+  //   border-radius: 6px;
+  //   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  // }
+  
+  // .progress-bar {	
+  //   height: 18px;
+  //   background-color: #ee303c;  
+  //   border-radius: 4px; 
+  //   transition: 0.4s linear;  
+  //   transition-property: width, background-color;    
+  // }
+  
+  // .progress-striped .progress-bar { 	
+  //   background-color: #FCBC51; 
+  //   width: 100%; 
+  //   // background-image: linear-gradient(
+  //   //       45deg, rgb(252,163,17) 25%, 
+  //   //       transparent 25%, transparent 50%, 
+  //   //       rgb(252,163,17) 50%, rgb(252,163,17) 75%,
+  //   //       transparent 75%, transparent); 
+  //   animation: progressAnimationStrike 6s;
+  // }
+  
+  // @keyframes progressAnimationStrike {
+  //      from { width: 0 }
+  //      to   { width: 100% }
+  // }
+ //end  
+  
+  .step-label {
+    position: absolute;
+    top: 40px;
+    width: 113px;
+    text-align: center;
+  }
+  
+  .step-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .step-description {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  .invoice{
+    background: #4fc67e;
+    padding: 3px 15px;
+    border-radius: 34px;
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+    border: 1px solid #4fc67e;
+    color: #fff;
+    float: right !important;
+    margin: 0;
+    font-size: 12px;
+    position: relative;
+    left: -11px;
+    top: -1px;
+  }
+  .invoiceIcon{
+    fill: #fff;
+  }
+ 
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 24px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3f51b5;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 4px #3f51b5;
+  }
+}
+.model{
+    .modelTop{
+        background: #0153a9 !important;
+        color: #fff !important;
+      }
+      .modal-header .btn-close{
+        color: #fff !important;
+        opacity: 1 !important;
+        font-size: 15px !important;
+        fill: #fff !important;
+      }
+      .rateName{
+        margin: 15px 0 0;
+        display: inline-block;
+        font-size: 15px;
+        padding: 0 0 10px 0;
+      }
+      .rateProduct{
+        margin: 15px 0 10px;
+        font-weight: 600;
+        font-size: 20px;
+      }
+      .ratePara{
+        font-size: 16px !important;
+        color: #000 !important;
+        padding: 0;
+        font-weight: 500 !important;
+      }
+}

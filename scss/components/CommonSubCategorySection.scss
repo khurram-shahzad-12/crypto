@@ -1,0 +1,224 @@
+.commoncategoryItems {
+    // border: none !important;
+    // border-radius: 8px !important;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    height: 244px;
+    margin: 2%;
+    .cardPadding{
+        padding: 5px;
+    }
+    .commonCardimage{
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 200px;
+        margin-top: 0px;
+    }
+    .categoryText{
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+        color: #333;
+        display: -webkit-box;
+        font-size: 11px;
+        font-weight: 400;
+        height: 29px;
+        line-height: 15px;
+        margin-top: 8px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .displayPrice{
+        color: rgb(130, 40, 40);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+    .previousPrice{
+        color: #4f4f4f;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-decoration-line: line-through;
+    }
+    .categoryContainers{
+        padding: 0px 10px;
+        height: 112px;
+    }
+    .crossButton{
+        position: absolute;
+        top: 8px;
+        right: 5px;
+        font-size: 22px;
+        color: #000000;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        padding: 4px;
+        
+    }
+    .crossButton:hover{
+        background-color: #ced4da;
+    }
+
+    // .itemcard-AddWishlist{
+    //     position: absolute;
+    //     right: 10px;
+    //     top: 4px;
+    //     border-radius: 20px;
+    //     height: 28px;
+    //     width: 28px;
+    //     background-color: #fff;
+    //     cursor: pointer;
+    //     text-align: center;
+    //     z-index: 99;
+    //     svg::before{
+    //         content: '';
+    //         position: absolute;
+    //         top: 0;
+    //         left: 0;
+    //         width: 100%;
+    //         height: 100%;
+    //         border-radius: 50%;
+    //         background: #fff;
+    //         transition: .5s;
+    //         transform: scale(.9);
+    //         z-index: -1;
+    //     }
+    // }
+
+
+
+    .heartButton{
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        font-size: 30px;
+        border-radius: 50%;
+        padding: 4px;
+        z-index: 77;
+        cursor: pointer;
+    }
+    .heartFillButton{
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        font-size: 30px;
+        border-radius: 50%;
+        padding: 4px;
+        color: #ff4a4a;
+        z-index: 77;
+        cursor: pointer;
+    }
+    
+
+
+
+    @media (min-width: 991px){
+        height:'348px';
+        .categoryText{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 19px;
+            height: 38px;
+            margin-bottom: 5px
+        }
+    }
+    
+}
+
+
+.commoncategoryItems:hover .AddToCartHover{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.subCategorySection{
+    
+    .card{
+        border: none;
+        width: 93%;
+        img{
+            //border-radius: 20px 0px;
+        }
+       
+    }
+
+    
+    .subCategoryLink{
+        border: none;
+        ul{
+            
+        }
+        .subCategoryImage{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 124px;
+            
+            border-radius: 24px 0px;
+        }
+        .subCategoryName{
+            text-transform: capitalize;
+            font-size: 14px;
+            min-height: 42px;
+            font-weight: 500;
+            margin: 15px 0 0;
+            color: #000;
+            text-align: center;
+            // font-weight: 600;
+            // font-size: 14px;
+            // line-height: 21px;
+            // text-align: center;
+            // color: #000000;
+            // text-decoration: none;
+            // padding-top: 16px;
+        }
+        
+    }
+    
+    @media (min-width: 991px){
+        .commoncategoryItems{
+            margin: unset !important;
+            .dealPercentage{
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 19px;
+            }
+            
+        }
+        img{
+            border-radius: 24px 0px;
+        }
+
+        
+       
+    }
+}
+
+.commoncategoryItems1{
+    margin-inline: 2% !important;
+}
+@media (min-width: 991px){
+    .commoncategoryItems1{
+        // margin-inline: -4% !important;
+    }
+}
+
+@media (min-width: 1440px){
+    .commoncategoryItems1{
+        // margin-inline: -3% !important;
+    }
+}
+
+@media (min-width: 2560px){
+    .commoncategoryItems1{
+        margin-inline: -2% !important;
+    }
+}
+
+.commonCardLink{
+    width:100% 
+}
+
+

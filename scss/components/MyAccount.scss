@@ -1,0 +1,248 @@
+.MyAccount{
+    ul{
+        padding-left: unset;
+        li{
+            padding: 11px 18px;
+            border: 1px solid #F2F2F2;
+            //width: 80%;
+
+
+        }
+    }
+    .active{
+        background: #EBEBFF;
+        font-weight: 500;
+        color: #040079;
+    }
+    .fillform{
+        width: 100%;      
+    }
+    .formname{       
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #333333;
+    }
+    .MyProfile{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #333333;
+    }
+    .form-control{
+        width: 100%;
+    font-size: 13px;
+    margin: 0;
+    border: 1px solid #ddd;
+    height: 36px;
+    }
+    
+    .orders{
+        font-weight: 500;
+        //font-size: 12px;
+        line-height: 18px;
+        color: #4F4F4F;
+        cursor: pointer;
+    }
+    .greenbox{
+        color: #FFFFFF;
+        background: #27AE60;
+        border-radius: 6px;
+        padding: 8px 32px;
+        border: none;
+
+       
+        //margin-left: -62%;
+    }
+    .bluebox{
+        color: #FFFFFF;
+        background: #0055B8;
+        border-radius: 6px;
+        padding: 8px 32px;
+        border: none;
+        margin-left: -63%;
+        
+
+    }
+    .twobox{
+        //text-align: center;
+        padding-top: 2%;
+        //margin-left: -7%;
+    }
+   .inputfield{
+      width: 100%;
+			display: flex;
+			justify-content: space-around;
+    	.input {
+        height: 2em;
+        width: 2em;
+        border: 2px solid #dad9df;
+        outline: none;
+        text-align: center;
+        font-size: 1.5em;
+        border-radius: 0.3em;
+        background-color: #ffffff;
+        outline: none;
+        /*Hide number field arrows*/
+        -moz-appearance: textfield;
+      }
+			.hide{
+					border: none;
+					background: #27AE60;
+					color: #ffff;
+					padding: 6px 8px;
+					border-radius: 7px;
+			}
+			input[type="number"]::-webkit-outer-spin-button,
+			input[type="number"]::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+			}
+
+    
+   	}
+		.otpDiv input{
+			/* width: 100% !important;
+			max-width: 266px;
+			column-gap: 10px !important; */
+			width: 100% !important;
+			max-width: 87px;
+				height: 60px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				text-align: center;
+				font-size: 32px;
+				font-weight: bold;
+				line-height: 1;
+		}
+		
+		
+    @media screen and (max-width:1424px) {
+        .bluebox{
+            margin-left: -51%;
+
+        }
+    }
+    @media screen and (max-width:425px) {
+       
+       .greenbox{
+        width: 100%;
+        //height: 40px;
+        margin-left: 2%;
+        padding: 8px 32px;
+       }
+       .bluebox{
+        width: 100%;
+        //height: 40px;
+        margin-left: 2%;
+        padding: 8px 32px;
+        margin-top: 4%;
+       }
+    }
+    
+    
+    
+}
+.changePassword{
+	.modalSubheading{
+		font-size: 12px;
+	}
+    label {
+        width: 100%;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        color: #444;
+       
+    }
+    input{
+        width: 90%;
+        background: #fff;
+        font-size: 13px;
+        margin-left: 10px;
+        // padding: 10px 12px;
+        font-weight: 500;
+        color: #000;
+        border: 1px solid #ddd;
+        height: 36px;
+        // position: relative;
+    }
+    .modal-footer{
+        justify-content: flex-start !important;
+    }
+    .formname{
+        background: #0153a9;
+        border: none;
+        box-shadow: none;
+        color: #fff;
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 600;
+        padding: 12px 20px;
+        text-shadow: none;
+        text-transform: capitalize;
+        transition: all .3s ease 0s;
+        text-transform: uppercase;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .warning{
+        color: rgb(102, 21, 10);
+        font-weight: bold;
+        margin-left: 13px;
+    }
+}
+
+
+.outer-sec {
+    padding:0px 15px 15px 15px;
+    margin-bottom: 35px;
+}
+
+.MyAccount{
+    ul{
+        li {
+            padding: 11px 18px;
+            border: 1px solid #F2F2F2;
+            border: 1px solid #e5e5e5;
+            text-align: left;
+            font-size: 14px;
+            text-transform: capitalize;
+            padding: 10px 16px;
+            height: auto;
+            margin-bottom: 2px;
+        }
+    }
+}
+.select-style {
+    .css-13cymwt-control {
+        background: none;
+        border:0 !important;
+    }
+}
+.select-style {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.mywishlist  {
+    
+    .MyProfile {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #333333;
+    }
+
+}
+.myaddress  {
+    
+    .MyProfile {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #333333;
+    }
+
+}

@@ -1,0 +1,162 @@
+.TabbyPlan{
+    font-family: 'Poppins',sans-serif;
+    .bluebanner{
+        width: 100%;
+
+    }
+    .backcolordiffrent{
+        //width: 100%;
+        padding: 60px 122px 60px;
+        background: linear-gradient(to right, #9a8fde, #9a8fde, #9a8fde, #999ee0, #98bfe8, #97d3ed);
+        //margin: 1% 0%;
+        margin-top: 1%;
+    }
+    .rowparagraph{
+        //padding-top: 6%;
+        //background: linear-gradient(to right, #9a8fde, #9a8fde, #9a8fde, #999ee0, #98bfe8, #97d3ed);
+
+    }
+    .collumrleft{
+        background: #fff;
+        box-shadow: 0px 5px 10px 0 #666;
+        padding: 25px 30px;
+        text-align: left;
+        min-height: 400px;
+
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        color: #000;
+        text-align: left;
+    }
+    .collumright{
+        background: #fff;
+        box-shadow: 0px 5px 10px 0 #666;
+        padding: 25px 30px;
+        text-align: left;
+        min-height: 400px;
+
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 35px;
+        color: #000;
+        text-align: left;
+        margin-bottom: 22px;
+        
+        
+    }
+    /* li{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        color: #000;
+        text-align: left;
+        margin-bottom: 22px;
+    } */
+    .iconsmall{
+        font-size: 20px;
+        margin-right: 9px;
+    }
+    .buynowpay{
+        font-size: 28px;
+        font-weight: 700;
+        color: #150d0f;
+        margin-bottom: 20px;
+    }
+    h5{
+        font-size: 15px;
+        font-weight: 700;
+        color: #000;
+    }
+    .plan{
+        background: #e7f4ff;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 50px;
+        text-align: center;
+        margin-top: 1%;
+        //padding-bottom: 5%;
+        padding: 36px 150px;
+    }
+    .convenience{
+        font-size: 16px;
+        font-weight: 700;
+        //padding: 0 15px 0;
+        color: #000;
+        text-align: center;
+        letter-spacing: 1px;
+
+    }
+    
+    .EasyInstalment{
+        font-size: 35px;
+        font-weight: 800;
+        //padding: 0 50px 0;
+        color: #000;
+        text-align: center;
+    }
+    .worth{
+        margin: 36px 100px 0;
+        border-bottom: 10px dashed #e7f4ff;
+        padding-bottom: 40px;
+        
+    }
+    .onedot{
+        font-size: 60px;
+        font-weight: 800;
+        color: #c90101;
+        border-left: 10px solid #0153a9;
+        padding: 0px 20px;
+        text-align: left;
+        line-height: 65px;
+    }
+    .ourshopeedetailsimg{
+        width: 100%;
+        //margin-left: 20%;
+    }
+    .Ifyoudesired{
+        color: #000;
+        line-height: 30px;
+        font-size: 16px;
+        /* text-align: justify;
+        letter-spacing: 0px; */
+    }
+    .twodot{
+        font-size: 69px;
+        font-weight: 800;
+        color: #c90101;
+        border-right: 10px solid #0153a9;
+        padding: 0px 20px;
+        border-left: 0;
+        text-align: right;
+        line-height: 65px;
+    }
+    @media  screen and (max-width:991px) {
+        .backcolordiffrent{
+            padding: 60px 10px 60px;
+            margin-top: 4%;
+
+        }
+        .twodot{
+            border-left: 10px solid #0153a9;
+            text-align: left;
+            border-right: none;
+            
+        }
+        .worth{
+            width: 100%;
+            margin: 0;
+        }
+        .collumright{
+            margin-top: 5%;
+        }
+        .ourshopeedetailsimg {
+            padding-top: 4%;
+        }
+        .plan{
+            margin-top: 4%;
+            padding: 36px 20px;
+        }
+        
+    }
+}

@@ -1,0 +1,1 @@
+export const getProductsByCategory = (products, category) => products.filter(product => category.length > 0 ? category.includes(product.category_id) : products);

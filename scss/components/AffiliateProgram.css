@@ -1,0 +1,314 @@
+.AffiliateProgram {
+  font-family: "Poppins", sans-serif;
+}
+.AffiliateProgram .logoourshopee {
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  left: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.AffiliateProgram .backfullimg {
+  background-image: url(../../public/Assets/affiliatebannerimg.webp);
+  padding-bottom: 8%;
+  text-align: center;
+  color: #f8f8f8;
+  padding-top: 10%;
+  margin-top: 5%;
+}
+.AffiliateProgram .joinbutton {
+  background: #FD7900;
+  border-radius: 6px;
+  width: 253px;
+  height: 40px;
+  border-width: 0;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-top: 2%;
+}
+.AffiliateProgram .Ourshopeetext {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+}
+.AffiliateProgram h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+}
+.AffiliateProgram .whoweare {
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+  padding-top: 5%;
+  text-align: center;
+  font-size: 32px;
+}
+.AffiliateProgram .joinour {
+  background: #EBEBFF;
+  color: #040079;
+  padding: 8px 32px;
+  border-radius: 6px;
+  margin-left: 30%;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.AffiliateProgram .Ourshoping {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #444;
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
+}
+.AffiliateProgram .backAffiliateimg {
+  background-image: url(../../public/Assets/affiliateimg.jpg);
+  padding-bottom: 100px;
+  background-size: cover;
+  text-align: center;
+}
+.AffiliateProgram .backcolorblack {
+  width: 80%;
+  margin-left: 10%;
+}
+.AffiliateProgram .infoourshopee {
+  color: #4F4F4F;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 10%;
+}
+.AffiliateProgram .Pleasefill {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #4F4F4F;
+}
+.AffiliateProgram .textinput {
+  height: 38px;
+  width: 100%;
+  font-size: 12px;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+  color: #000;
+  font-weight: 600;
+  padding: 0 0 0 10px;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+.AffiliateProgram .textcaptcha {
+  width: 96%;
+  height: 38px;
+  margin-left: 4%;
+  margin-top: 2%;
+  font-size: 12px;
+  background: #ebebeb;
+  color: #000;
+  font-weight: 600;
+  padding: 0 0 0 10px;
+}
+.AffiliateProgram .backcolorwhite {
+  justify-content: center;
+  gap: 2%;
+  background: rgba(235, 235, 255, 0.5);
+  padding-bottom: 5%;
+}
+.AffiliateProgram .ourmain {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #333333;
+  text-align: center;
+  padding-top: 5%;
+}
+.AffiliateProgram .smallimages {
+  padding-top: 2%;
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+}
+.AffiliateProgram .logoimg {
+  width: 260px;
+  height: 90px;
+}
+.AffiliateProgram .borderbox {
+  padding: 16px;
+  width: 292px;
+  height: 122px;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+}
+.AffiliateProgram .borderboximg {
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 8px;
+  background: #FFFFFF;
+}
+.AffiliateProgram .connectwith {
+  margin: 0 0 25px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 10%;
+}
+.AffiliateProgram .midiaicon {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 14px;
+}
+.AffiliateProgram .iconname {
+  background: #FFFFFF;
+  border-radius: 4px;
+  width: 135px;
+  height: 37px;
+  padding-top: 5px;
+  color: #3B5998;
+  font-weight: 500;
+}
+.AffiliateProgram li {
+  padding: 6px;
+}
+.AffiliateProgram .submitbutton {
+  padding: 8px 32px;
+  width: 123px;
+  height: 40px;
+  background: #0055B8;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  margin-left: 46%;
+  margin-top: 3%;
+}
+.AffiliateProgram .fillCaptcha {
+  padding-top: 4%;
+  padding-left: 16%;
+}
+.AffiliateProgram .entCaptcha {
+  margin-left: 20%;
+}
+.AffiliateProgram .affilatedFooter {
+  height: 100px;
+  background: #00142F;
+  padding-left: 4%;
+  padding-top: 3%;
+  color: #FFFFFF;
+}
+.AffiliateProgram .homeaboutcontact {
+  font-size: 14px;
+  text-decoration: none;
+  text-align: right;
+  color: #FFFFFF;
+}
+.AffiliateProgram .Copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 38px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.AffiliateProgram .imgcaptcha {
+  position: absolute;
+  margin-left: -19%;
+  padding-top: 1%;
+  width: 6%;
+}
+@media screen and (max-width: 991px) {
+  .AffiliateProgram .joinour {
+    margin-left: 24%;
+  }
+  .AffiliateProgram .Ourshopeetext {
+    font-family: "Poppins", sans-serif;
+    font-size: 3em;
+    padding-top: 10%;
+  }
+  .AffiliateProgram .textcaptcha {
+    width: 100%;
+    margin-left: 2%;
+  }
+  .AffiliateProgram .entCaptcha {
+    margin-left: 0%;
+  }
+  .AffiliateProgram .fillCaptcha {
+    padding-left: 0%;
+  }
+  .AffiliateProgram .backcolorblack {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .AffiliateProgram .submitbutton {
+    width: 296px;
+    height: 40px;
+    margin-left: 32%;
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .AffiliateProgram .joinour {
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .AffiliateProgram {
+    /* .midiaicon{
+        display: contents !important;
+
+    } */
+    /* .homeaboutcontact{
+        padding-left: 17%;
+    } */
+  }
+  .AffiliateProgram .Ourshopeetext {
+    margin: 0 0 10px;
+    font-size: 2.2em;
+    padding-top: 20%;
+  }
+  .AffiliateProgram .joinour {
+    margin-left: 2%;
+  }
+  .AffiliateProgram .iconname {
+    padding: 10px 11px;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin: 11PX;
+  }
+  .AffiliateProgram .affilatedFooter {
+    text-align: center;
+  }
+  .AffiliateProgram .Copyright {
+    font-size: 12px;
+  }
+  .AffiliateProgram .borderbox {
+    margin-top: 4%;
+  }
+  .AffiliateProgram .submitbutton {
+    margin-left: 13%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .AffiliateProgram .iconname {
+    margin: 8PX;
+  }
+  .AffiliateProgram .submitbutton {
+    margin-left: 8%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .AffiliateProgram .iconname {
+    margin: -1PX;
+  }
+  .AffiliateProgram .submitbutton {
+    margin-left: 0%;
+  }
+}/*# sourceMappingURL=AffiliateProgram.css.map */

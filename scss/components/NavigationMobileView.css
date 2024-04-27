@@ -1,0 +1,86 @@
+.navigationMobileView ul {
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  left: 0;
+  padding: 16px;
+}
+.navigationMobileView ul li {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 32px;
+}
+.navigationMobileView a {
+  color: #000000;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+.navigationMobileView .fixedMobileNav {
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 9999;
+  background-color: #FFFFFF;
+}
+.navigationMobileView .cancelMenu {
+  float: right;
+  font-size: 19px;
+  /*  padding-top: 16px;
+   padding-right: 16px; */
+}
+.navigationMobileView .backMenu {
+  position: absolute;
+  font-size: 22px;
+  bottom: 1px;
+  left: 27px;
+}
+.navigationMobileView .userLogin {
+  position: absolute;
+  top: 48px;
+  width: 100%;
+  text-align: center;
+}
+.navigationMobileView .sign_up {
+  color: #0D69E0;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+}
+.navigationMobileView .welcomeUser {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+.navigationMobileView .menuBtn {
+  background: #E5F0FD;
+  font-weight: 700;
+  font-size: 14px;
+}
+.navigationMobileView .menuTab {
+  margin-top: 113px;
+  background: #FAFAFA;
+}
+.navigationMobileView .profileBtn {
+  font-weight: 400;
+  color: #828282;
+}
+.navigationMobileView .categoryBtn {
+  font-weight: 700;
+  color: #333333;
+}
+.navigationMobileView .menuList {
+  width: 100%;
+  padding-top: 189px;
+  filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.12));
+}
+.navigationMobileView .colTab {
+  padding: 8px 0px;
+  font-size: 14px;
+}
+.navigationMobileView .userName span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=NavigationMobileView.css.map */

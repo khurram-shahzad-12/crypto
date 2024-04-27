@@ -1,0 +1,213 @@
+.TermsandConditions{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    padding-top: 3%;
+    .ulimg{
+        list-style: none;
+        padding-left: 0;
+    }
+    .ulimg li {
+        position: relative;
+        padding-left: 30px;
+    }
+    
+    .ulimg li:before {
+        content: '';
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        background-image: url('../../public/Assets/hand-point-right.png');
+        //background-size: cover;
+        //background-position: center;
+        left: 0;
+        //top: 0;
+       
+    }
+    .titlehead{
+       /*  padding-right: 7px;
+        font-size: 17px;
+        font-weight: 600;
+        color: #000;
+        margin: 20px 0 15px; */
+        font-weight: 600;
+        font-size: 14px;
+        color: #000;
+        margin: 20px 0 15px;
+    }
+    p{
+        
+        /* color: #666;
+        font-size: 12px;
+        margin: 14px 0;
+        font-weight: 300;
+        line-height: 24px; */
+        font-size: 12px;
+        line-height: 24px;
+        color: #666;
+    }
+    li{
+        font-size: 12px;
+        color: #333;
+        line-height: 24px;
+    }
+   
+    .tikparagraph  li:before {
+        content: '✓';
+        color: #c90101;
+    }
+    .tikparagraph  li:before {
+        content: circle;
+        
+    }
+    .tikparagraph{
+        margin: 12px 0;
+        color: #333;
+        font-size: 14px;
+        padding-left: 5%;
+    }
+    .phika{
+        color: #666;
+    
+    }
+    .textpara{
+        padding-left: 5%;
+    }
+}
+
+
+.WarrantyPage {
+
+    .warrantyterms-info {
+        width:70%;
+        text-align:center;
+        background:#fff;
+        box-shadow:0px 5px 20px 0 #ddd;
+        padding:25px;
+        border-radius:30px;
+        margin:2% auto;
+
+        h2{
+            font-size:36px;
+            font-weight:600;
+        }
+        h4{
+            font-size:18px;
+            font-weight:600;
+            color:#666;
+        }
+        h3{
+            font-size:24px;
+            font-weight:600;
+            color:#000;
+            border:4px dotted #e4eaf9;
+            padding:10px;
+        }
+        .termsofuse {
+            text-align:left;
+            h2 {
+                font-size: 30px;
+                font-weight: 600;
+                text-align: center;
+            }
+            h4 {
+                text-align:left;
+                padding-top:25px;
+            }
+            p{
+                font-size:15px; 
+            }
+            h5 {
+                font-size:14px; 
+                font-weight: 600;
+            }
+            li {
+                font-size:14px; 
+                line-height:24px; 
+                color:#333;
+            }
+
+            }
+        }
+    }
+    
+
+.termsofuse {
+    h2 {
+        font-size: 30px;
+        border-bottom: 1px dotted #ddd;
+        padding: 0px 0 12px 0;
+    }
+}
+
+@media screen and (max-width:640px){
+    .WarrantyPage {
+
+        .warrantyterms-info {
+            width:94%;
+            margin:2% auto;
+    
+            h2{
+                font-size:22px;
+            }
+            h4{
+                font-size:14px;
+            }
+            h3{
+                font-size:16px;
+            }
+            p {
+                img { width:100%;}
+            }
+            .termsofuse {
+                text-align:left;
+                h2 {
+                    font-size:24px;
+                }
+                h4 {
+                    text-align:left;
+                    padding-top:25px;
+                }
+                p{
+                    font-size:14px; 
+                }
+                h5 {
+                    font-size:12px; 
+                }
+                li {
+                    font-size:12px; 
+                }
+    
+                }
+            }
+        }
+    
+}
+
+@media screen and (max-width:360px){
+
+    .WarrantyPage {
+
+        .warrantyterms-info {
+            width:94%;
+            margin:2% auto;
+    
+            h2{
+                font-size:22px;
+            }
+            h4{
+                font-size:14px;
+            }
+
+            .termsofuse {
+                text-align:left;
+                h2 {
+                    font-size:20px;
+                }
+               
+                }
+    
+            
+            }
+        }
+
+}

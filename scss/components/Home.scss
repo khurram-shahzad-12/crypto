@@ -1,0 +1,404 @@
+@use '../abstracts/variable' as *;
+@use '../abstracts/spacingVariable.scss';
+@use '../abstracts/colorVariable.scss';
+@use '../abstracts/fontVariable.scss';
+
+
+
+.react-multiple-carousel__arrow {
+    min-width: 30px;
+    min-height: 30px;
+    //background: #F2F2F2 !important;
+    background: #0f0e0e21 !important;
+    border-radius: 8px !important;
+    opacity: 1 !important;
+    z-index: 998 !important;
+    margin: 15px;
+}
+.react-multiple-carousel__arrow::before{
+    color:#BDBDBD !important;
+    font-size: 15px;
+}
+.react-multiple-carousel__arrow--left{
+    //left: 17px
+    left: calc(1%);
+}
+
+
+
+.excitingSection{
+    margin-top: spacingVariable.$extraLargeSpacing;
+
+}
+
+.Big_bnrs .bnr_img {
+    //width: 1120px;
+    padding-top: 38px;
+}
+
+.duoSection{
+    margin-top: spacingVariable.$cardPadding;
+
+}
+.dealSection{
+    //background-color: colorVariable.$dealBackgroundColor;
+    border-radius: spacingVariable.$SmallSpacing;
+    padding: 12px;
+    .view_all{
+        font-size: 14px;
+        float: right;
+        margin-top: -32px;
+        color: colorVariable.$prodNameColor;
+        padding-right: 7px;
+    }
+
+    .horizontalCard {
+        .order-2{
+            padding: 0px;
+        }
+        .descrip{
+           // border: 1px solid red;
+            margin: 10px 2px;
+        }
+    }
+}
+
+.clearanceSale{
+    background: linear-gradient(to right, #eddc0e, #eddc0e, #f4cf08, #f8c60d, #fdbe10, #feba12);
+    // background: colorVariable.$clearanceBackgroundColor;
+    position: relative;
+    .announce{
+        position: absolute;
+        top: -48px;
+        left: 33%;
+        height: 110px;
+        width:auto;
+    }
+    .horizontalCard .cardImage{
+
+        margin-right: 6px;
+    }
+}
+
+.brandWeek{
+    background-color: #efcf1f;
+    border-radius: 10px;
+    ul{
+        padding: 12px;
+    }
+    img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+.preOwned{
+    background-color: #e5e0d9;
+    border-radius: 12px;
+}
+.preOwned img{
+    border-top-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.categoryItem{
+    background: #fffee7;
+}
+.discount70{
+    padding: 20px 6px 20px 22px;
+    background: #d6ecf5;
+    border-radius: 12px;
+    .discountCard{
+        text-align: center;
+        border: none;
+        width: 90%;
+        border-radius: 12px 12px 0 0;
+        img{
+            border-radius: 12px 12px 0 0;
+        }
+        .itemname{
+            color: #000000;
+            font-size: 12px;
+            font-weight: 600;
+            min-height: 50px;
+            white-space: normal;
+            padding: 5px 2px;
+        }
+    }
+   
+}
+// @media (min-width: 992px) and (max-width: 1199px){
+//     .discount70{
+//     .discountCard{
+//         .itemname {
+//             font-size: 14px;
+//         }
+//     }
+// }
+// }
+
+.top_pickup_section{
+    .card{
+        border: none;
+        border-radius: 8px;
+        height: 218px;
+    }
+    .categoryText{
+        font-weight: 400;
+        font-size: 12px !important;
+        line-height: 16px;
+    }
+    .displayPrice{
+        color: #040079 !important;
+        font-weight: 600;
+        //font-size: 18px !important;
+        line-height: 25px;
+    }
+    .toppick_outer{
+        display: block;
+        width: 100%;
+    }
+    .topcard{
+        height: 215px;
+        margin-bottom: 9px;
+    }
+   
+    
+    .toppick_inner{
+        background: #D7F2FF;
+        padding: 15px;
+        border-radius: 12px;
+        position: relative;
+    }
+    .commonCardimage{
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 70px !important;
+        padding: 12px 5px 0px 5px;
+    }
+    .react-multiple-carousel__arrow{
+        width: 34px;
+        height: 34px;
+        background: rgba(0, 0, 0, 0.4) !important;
+    }
+    .react-multiple-carousel__arrow--left{
+        left: 25px;
+    }
+    .react-multiple-carousel__arrow--right{
+        right: calc(59% + 10px)
+    }
+    .brand-des{
+        border-radius: 12px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .top_pickup_section{
+        .card{
+            height: 192px;
+        }
+        .topcard{
+            height: 158px;
+            //height: 179px;
+            margin-bottom: 9px;
+        }
+       
+        .cardPadding1{
+            padding: 0px;
+        }
+        .commonCardimage{
+            min-height: 80px !important;
+        }
+        .toppickimage{
+            min-height: 68px !important;
+        }
+        .text{
+            height: 34px !important;
+            margin: 0px !important;
+        }
+    }
+    .react-multiple-carousel__arrow--right {
+        right: calc(0%);
+    }
+}
+@media (min-width: 1240px) {
+    .react-multiple-carousel__arrow--left{
+        left: unset;
+    }
+    .top_pickup_section{
+        .topcard{
+            height: 213px;
+            margin-bottom: 9px;
+        }
+        .toppickimage{
+            min-height: 110px !important;
+        }
+        .text{
+            height: 40px !important;
+            margin: 0px !important;
+        }
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .react-multiple-carousel__arrow--left{
+        left: unset;
+    }
+   
+.react-multiple-carousel__arrow--right {
+    right: 2%;
+}
+    
+    .top_pickup_section{
+        .topcard{
+            height: 222px;
+            margin-bottom: 9px;
+        }
+        .toppickimage{
+            min-height: 110px !important;
+        }
+        .text{
+            height: 40px !important;
+            margin: 0px !important;
+        }
+    }
+}
+/* @media (min-width: 2560px) {
+    
+    .top_pickup_section{
+        .topcard{
+            height: 255px;
+            margin-bottom: 9px;
+        }
+        .toppickimage{
+            min-height: 140px !important;
+        }
+        .text{
+            height: 50px !important;
+            margin: 2px !important;
+        }
+    }
+} */
+@media (min-width: 1610px) {
+    
+    .top_pickup_section{
+        .topcard{
+            height: 255px;
+            margin-bottom: 9px;
+        }
+        .toppickimage{
+            min-height: 140px !important;
+        }
+        .text{
+            height: 50px !important;
+            margin: 2px !important;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .excitingSection{
+        margin-top: spacingVariable.$largeSpacing;
+    }
+    .react-multiple-carousel__arrow{
+        display:none;
+    }
+    .Big_bnrs .bnr_img {
+        width: 100%;
+        padding-top:5px;
+    }
+}
+
+@media (max-width:768px){
+    .dealSection{
+        .view_all{
+            margin-top: unset;
+            text-align: center;
+            float: none;
+        }
+    }
+}
+@media (min-width: 1920px) {
+        .react-multiple-carousel__arrow--right {
+            right: calc(9% + 1px);
+        }    
+}
+
+@media (min-width: 2560px) {
+        .react-multiple-carousel__arrow--right {
+            right: calc(20% + 1px);
+        }   
+}
+
+
+// Aiswarya css
+
+
+@media (max-width:767px){
+    .react-multi-carousel-item {
+        .sl-d {
+            width:32.666%;
+        }
+    }
+}
+@media (max-width:478px){
+    .react-multi-carousel-item {
+        .sl-d {
+            width:50%;
+            .toppickimage {
+                min-height:110px !important;
+            }
+            .topcard {
+                height: 254px;
+            }
+        }
+    }
+}
+
+.top_pickup_section {
+    .sl-d {
+        .topcard {
+            box-shadow:none;
+        }
+    }
+} 
+
+.Big_bnrs {
+    .b-curve {
+        border-radius:27px;
+        padding:15px 10px;
+    }
+}
+
+
+.rct-node-icon{
+  display: none;
+}
+
+
+button.whatsapp-icn {
+    opacity: 1;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: block;
+    padding: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 8px;
+    transition: all 0.5s ease 0s;
+    position: fixed;
+    bottom:30px;
+    left:25px;
+    z-index: 200;
+    text-decoration: none !important;
+    background-color: rgb(77, 194, 71) !important;
+    border: 0;
+    color: #fff;
+}
+
+
+

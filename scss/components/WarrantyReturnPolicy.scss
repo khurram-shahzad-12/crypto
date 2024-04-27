@@ -1,0 +1,88 @@
+.WarrantyReturnPolicy{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    //padding-left: 5%;
+    padding-top: 3%;
+    p{
+        /* font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #828282; */
+        font-size: 12px;
+        line-height: 24px;
+        color: #666;
+    }
+    
+   /*  li{
+        font-size: 12px;
+        color: #333;
+        line-height: 24px;
+    } */
+    .Returnfor{
+        /* font-weight: 400;
+        font-size: 12px;
+        padding-left: 6%;
+        line-height: 24px;
+        color: #333;
+        list-style: circle;
+        margin: 0 0 0 48px; */
+        font-size: 12px;
+        line-height: 24px;
+        color: #333;
+        margin: 0 0 0 48px;
+        
+    }
+    .customer{
+        font-weight: 600 ;
+        font-size: 14px;
+        color: #000000;
+    }
+    .ulHead{
+        list-style: none;
+        padding-left: 0;
+    }
+    .ulHead li {
+        position: relative;
+        padding-left: 30px;
+    }
+    .ulHead li:before {
+        content: '';
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        background-image: url('../../public/Assets/hand-point-right.png');
+        //background-size: cover;
+        //background-position: center;
+        left: 0;
+        //top: 0;
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    @media screen and (max-width: 425px){
+        .Returnfor{
+            padding-left: 12%;
+        }
+    }
+    @media screen and (max-width: 375px){
+        .Returnfor{
+            padding-left: 13%;
+        }
+    }
+    @media screen and (max-width: 320px){
+        .Returnfor{
+            padding-left: 15%;
+        }
+    }
+}

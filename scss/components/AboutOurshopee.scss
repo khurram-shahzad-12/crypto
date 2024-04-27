@@ -1,0 +1,325 @@
+
+.AboutOurshopee{
+    
+    
+    .colorpink{
+        background: #f2f2f2;
+        
+        padding: 0px 8px;
+        height: 24px;
+       width: 100%;
+        
+        .Homepage a{
+            font-size: 12px !important;
+           
+            color:  #828282;
+            text-decoration-line: none ;
+            
+            
+           
+        }
+        .BsFillPlayFill{
+            margin-top: 5px;
+            margin-left: 5px;
+            color: #828282;
+
+            
+        }
+        .aboutuspage a{
+            font-size: 12px;
+            color: #333333;
+            text-decoration-line: none;
+            margin-left: 5px;
+
+           
+        }
+        
+    }
+    
+    .aboutuscenter{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        padding-top: 16px;
+        color: #333333;
+    }
+    
+    .singleimg{
+        width: 100%;
+        padding-top: 8px;
+    }
+    
+    
+    .liteblueimg{
+       /*  background-image: url(../../public/Assets/liteblueimg.webp); */
+        width: 100%;
+        padding-top: 8px;
+        margin-left: 0%;
+        margin-top: 8px;
+        background: #4FA8C3;
+    }
+    
+    .sectionmargin{
+        padding-top: 5%;
+        padding-right: 20px;
+        padding-left: 20px;
+      
+    }
+    
+    .titleparagraph{
+        padding-left: 12%;
+        padding-top: 14%;
+        padding-right: 4%;
+    }
+    .titleOnline{
+        font-size: 36px;
+        color: #FFFFFF;
+    }
+    .paragraphbig{
+        color: #FFFFFF;
+        margin: 8px 0 0;
+        
+    }
+    .rightimg{
+        max-width: 100% !important;
+        
+    }
+    
+    .sectionbody{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .secondbackgroundimg{
+        width: 100%;
+        margin-left: 0%;
+        background: #CAE4EB;
+    }
+    .genuineproduct{
+        color: #39b2c7;
+        font-size: 36px;
+        margin-left: -1%;
+    
+    }
+    .onlydealing{
+        color: #39b2c7;
+    }
+
+    
+    .thirddbackgroundimg{
+        width: 100%;
+        margin-left: 0%;
+        background: #CF766B;
+    }
+    
+    .liteblackbackgroundimg{
+        width: 100%;
+        margin-left: 0%;
+        background: #49585E;
+        
+    }
+    .darkbrownbackgroundimg{
+        width: 100%;
+        margin-left: 0%;
+        background: #CC6357;
+        
+    }
+    .firozibackgroundimg{
+        width: 100%;
+        margin-left: 0%;
+        background: #2A9D9B;
+        
+    }
+    .greybackgroundimg{
+        width: 100%;
+        margin-top: 8px;
+        margin-left: 0%;
+        background: #A5B6C0;
+        
+    
+    }
+    
+    .liteorangebackgroundimg{
+        width: 100%;
+        margin-left: 0%;
+        background: #D5896A;
+        
+    }
+    
+    .darkfirozibackgroundimg{
+        width: 100%;
+        margin-left: 0%;
+        background: #1E9A97;
+        
+    }
+    
+}
+@media screen and (max-width: 991px){
+    .colorpink{
+        top: 22px;
+        left: 0px !important;
+        margin-top: 4% !important;
+       
+    }   
+    
+    .liteblueimg{
+        width: 360px;
+    }
+    .titleparagraph{
+        padding-left: 4% !important;
+        padding-top: 6% !important;
+    }
+    .titleOnline{
+        font-size: 24px !important;
+        
+    }
+    .paragraphbig{
+        font-weight: 400;
+        font-size: 14px;
+        padding-top: 2%;
+    }
+    .genuineproduct{
+        font-size: 24px !important;
+    }
+    .onlydealing{
+        font-weight: 400;
+        font-size: 14px;
+        padding-top: 3%;
+    }
+}
+    
+.titlemainparagraph {
+    padding:5%;
+    text-align:left;
+    background:#f8f9fa;
+}
+.titlemainparagraph {
+    h2 {
+        padding:0 0 15px;
+    }  
+}
+.vision-mission.row {
+    background:#04b6d9;
+    padding:5% 12%;
+    margin:0;
+}
+.factor-inspire.row {
+    background:#1b7095;
+    margin:0;
+    padding:3% 3% 2%;
+}
+.sub-clm {
+    background:none !important;
+    margin:10px 0 12px !important;
+}
+h4.titleinspire {
+    color:#ffdc74;
+    font-size:15px;
+    font-weight:600;
+}
+.factor-inspire {
+    p {
+        font-size:14px;
+        line-height:24px;
+    }
+}
+.integrity.row {
+    background:#5197b8;
+    margin:0;
+    padding:3% 2% 3% 16%;
+}
+.AboutOurshopee {
+    .fullimg{
+        width:100%;
+        text-align: center;
+    }
+}
+
+button.btn-inter,.btn-Inclusion,.btn-Audacity,.btn-bias,.btn-customer {
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 29px;
+    outline:none; width:100%;
+}
+button.btn-inter {
+    background:#5cc6ca;
+}
+button.btn-Inclusion {
+    background:#f8cf73;
+}
+button.btn-Audacity {
+    background:#fcb34d;
+}
+button.btn-bias {
+    background:#e0762c;
+}
+button.btn-customer {
+    background:#1764b1;
+}
+.ourshopee-profile.row {
+    padding: 3% 0% 3% 2%;
+    border: 1px solid #ced4da;
+    margin: 0;
+}
+.ourshopee-profile {
+    p.paragraphbig {
+        color: #000;
+        font-size: 15px;
+        line-height: 25px;
+    }
+} 
+h3.titlechairman {
+    font-size: 20px;
+    color: #0754b7;
+    font-weight: 600;
+}
+.ourshopee-profile h5 {
+    font-size: 17px;
+    color: #0754b7;
+    padding: 0 0 6px;
+}
+
+
+@media screen and (max-width:1024px){
+    .vision-mission.row {
+        padding: 5% 4%;
+    }
+    .integrity.row {
+        padding: 3% 3% 3% 3%;
+    }
+
+}
+    
+
+
+@media screen and (max-width:640px){
+    .integrity.row {
+        padding: 3% 3% 3% 3%;
+    }
+    .factor-inspire.row {
+        .mt-5 {
+            margin-top: 0 !important;
+            text-align: center;
+        }
+    }
+    .factor-inspire.row {
+        .col-lg-1 {
+            display: none;
+        }
+    }
+    .vision-mission.row{
+        text-align: center;
+    }
+    .vision-img {
+        margin: 22px 0 6px;
+    }
+    
+}
+    
+
+
+
+

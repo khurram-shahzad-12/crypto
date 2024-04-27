@@ -1,0 +1,59 @@
+@use '../abstracts/spacingVariable.scss';
+@use '../abstracts/colorVariable.scss';
+@use '../abstracts/fontVariable.scss';
+
+
+
+.horizontalCard{
+    //padding: spacingVariable.$cardPadding;
+    padding: 10px;
+    .cardImage{
+        
+        height: 140px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 100%;
+    }
+    .cardData{
+        min-height: 156px;
+    }
+    .orange_box{
+        /* background-color: colorVariable.$orangeBackground;
+        color: colorVariable.$textWhite; */
+        font-size: fontVariable.$extraSmallfont;
+        font-weight: fontVariable.$overWeight;
+        border-radius: spacingVariable.$MinRadius;
+        width: spacingVariable.$fitContent;
+        margin-bottom: 10px;
+        // padding: 4px 8px 4px 6px;
+    }
+    .SellPrice{
+        font-size: 12px;
+        
+    }
+    .oldPrice{
+        font-size: fontVariable.$extraSmallfont;
+        font-weight: fontVariable.$aboveWeight;
+    }
+    .discountPercent{
+        font-size: fontVariable.$smallfont;
+    }
+    .descrip{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        font-size: fontVariable.$extraSmallfont;
+        color: colorVariable.$prodNameColor;
+        margin: 10px 0px;
+    }
+}
+@media (min-width: 991px) {
+    .horizontalCard{
+        .SellPrice{
+            font-size: 14px;
+            
+        }
+    }
+}

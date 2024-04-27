@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.SiteMapFixed {
+  font-family: "Poppins";
+  font-style: normal;
+  padding-top: 2%;
+}
+.SiteMapFixed .categoryName {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333333;
+}
+.SiteMapFixed .arrow {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #4F4F4F;
+  margin-left: -6%;
+  padding-left: 2%;
+}
+.SiteMapFixed .arrow::marker {
+  content: "⇾";
+  font-size: 20px;
+  color: #4F4F4F;
+}
+.SiteMapFixed .nextpage {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333333;
+  padding-left: 13px;
+}/*# sourceMappingURL=SiteMap.css.map */

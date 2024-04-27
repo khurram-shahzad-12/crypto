@@ -1,0 +1,43 @@
+.horizontalCard {
+  padding: 16px;
+}
+.horizontalCard .cardImage {
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100%;
+}
+.horizontalCard .orange_box {
+  /* background-color: colorVariable.$orangeBackground;
+  color: colorVariable.$textWhite; */
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 6px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px 8px 4px 6px;
+}
+.horizontalCard .SellPrice {
+  font-weight: 700;
+  font-size: 16px;
+}
+.horizontalCard .oldPrice {
+  font-size: 12px;
+  font-weight: 400;
+}
+.horizontalCard .discountPercent {
+  font-weight: 700;
+  font-size: 16px;
+}
+.horizontalCard .descrip {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 8px;
+}/*# sourceMappingURL=HorizontalCard.css.map */

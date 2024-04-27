@@ -1,0 +1,148 @@
+.AboutOurshopee .colorpink {
+  background: #f2f2f2;
+  padding: 0px 8px;
+  height: 24px;
+  width: 100%;
+}
+.AboutOurshopee .colorpink .Homepage a {
+  font-size: 12px !important;
+  color: #828282;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+.AboutOurshopee .colorpink .BsFillPlayFill {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #828282;
+}
+.AboutOurshopee .colorpink .aboutuspage a {
+  font-size: 12px;
+  color: #333333;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  margin-left: 5px;
+}
+.AboutOurshopee .aboutuscenter {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 16px;
+  color: #333333;
+}
+.AboutOurshopee .singleimg {
+  width: 100%;
+  padding-top: 8px;
+}
+.AboutOurshopee .liteblueimg {
+  /*  background-image: url(../../public/Assets/liteblueimg.webp); */
+  width: 100%;
+  padding-top: 8px;
+  margin-left: 0%;
+  margin-top: 8px;
+  background: #4FA8C3;
+}
+.AboutOurshopee .sectionmargin {
+  padding-top: 5%;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.AboutOurshopee .titleparagraph {
+  padding-left: 12%;
+  padding-top: 14%;
+  padding-right: 4%;
+}
+.AboutOurshopee .titleOnline {
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.AboutOurshopee .paragraphbig {
+  color: #FFFFFF;
+}
+.AboutOurshopee .rightimg {
+  max-width: 100% !important;
+}
+.AboutOurshopee .sectionbody {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.AboutOurshopee .secondbackgroundimg {
+  width: 100%;
+  margin-left: 0%;
+  background: #CAE4EB;
+}
+.AboutOurshopee .genuineproduct {
+  color: #39b2c7;
+  font-size: 36px;
+  margin-left: -1%;
+}
+.AboutOurshopee .onlydealing {
+  color: #39b2c7;
+}
+.AboutOurshopee .thirddbackgroundimg {
+  width: 100%;
+  margin-left: 0%;
+  background: #CF766B;
+}
+.AboutOurshopee .liteblackbackgroundimg {
+  width: 100%;
+  margin-left: 0%;
+  background: #49585E;
+}
+.AboutOurshopee .darkbrownbackgroundimg {
+  width: 100%;
+  margin-left: 0%;
+  background: #CC6357;
+}
+.AboutOurshopee .firozibackgroundimg {
+  width: 100%;
+  margin-left: 0%;
+  background: #2A9D9B;
+}
+.AboutOurshopee .greybackgroundimg {
+  width: 100%;
+  margin-top: 8px;
+  margin-left: 0%;
+  background: #A5B6C0;
+}
+.AboutOurshopee .liteorangebackgroundimg {
+  width: 100%;
+  margin-left: 0%;
+  background: #D5896A;
+}
+.AboutOurshopee .darkfirozibackgroundimg {
+  width: 100%;
+  margin-left: 0%;
+  background: #1E9A97;
+}
+
+@media screen and (max-width: 991px) {
+  .colorpink {
+    top: 22px;
+    left: 0px !important;
+    margin-top: 4% !important;
+  }
+  .liteblueimg {
+    width: 360px;
+  }
+  .titleparagraph {
+    padding-left: 4% !important;
+    padding-top: 6% !important;
+  }
+  .titleOnline {
+    font-size: 24px !important;
+  }
+  .paragraphbig {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 3%;
+  }
+  .genuineproduct {
+    font-size: 24px !important;
+  }
+  .onlydealing {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 3%;
+  }
+}/*# sourceMappingURL=AboutOurshopee.css.map */

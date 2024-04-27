@@ -1,0 +1,68 @@
+.WarrantyReturnPolicy {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding-top: 3%;
+  /*  li{
+       font-size: 12px;
+       color: #333;
+       line-height: 24px;
+   } */
+}
+.WarrantyReturnPolicy p {
+  /* font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #828282; */
+  font-size: 12px;
+  line-height: 24px;
+  color: #666;
+}
+.WarrantyReturnPolicy .Returnfor {
+  /* font-weight: 400;
+  font-size: 12px;
+  padding-left: 6%;
+  line-height: 24px;
+  color: #333;
+  list-style: circle;
+  margin: 0 0 0 48px; */
+  font-size: 12px;
+  line-height: 24px;
+  color: #333;
+  margin: 0 0 0 48px;
+}
+.WarrantyReturnPolicy .customer {
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+}
+.WarrantyReturnPolicy .ulHead {
+  list-style: none;
+  padding-left: 0;
+}
+.WarrantyReturnPolicy .ulHead li {
+  position: relative;
+  padding-left: 30px;
+}
+.WarrantyReturnPolicy .ulHead li:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-image: url("../../public/Assets/hand-point-right.png");
+  left: 0;
+}
+@media screen and (max-width: 425px) {
+  .WarrantyReturnPolicy .Returnfor {
+    padding-left: 12%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .WarrantyReturnPolicy .Returnfor {
+    padding-left: 13%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .WarrantyReturnPolicy .Returnfor {
+    padding-left: 15%;
+  }
+}/*# sourceMappingURL=WarrantyReturnPolicy.css.map */

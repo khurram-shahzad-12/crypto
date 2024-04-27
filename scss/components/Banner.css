@@ -1,0 +1,28 @@
+.banner_list {
+  margin-top: 24px;
+}
+.banner_list .card {
+  margin-bottom: 8px;
+}
+.banner_list .card, .banner_list .card-img-top {
+  border: none;
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  .banner_list .banner_column:first-child, .banner_list .banner_column:nth-child(3) {
+    padding-left: 16px;
+    padding-right: 4px;
+  }
+  .banner_list .banner_column:nth-child(2), .banner_list .banner_column:last-child {
+    padding-right: 16px;
+    padding-left: 4px;
+  }
+  .banner_list .banner_column:nth-child(3) {
+    padding-left: 16px;
+    padding-right: 4px;
+  }
+  .banner_list .banner_column:last-child {
+    padding-right: 16px;
+    padding-left: 4px;
+  }
+}/*# sourceMappingURL=Banner.css.map */

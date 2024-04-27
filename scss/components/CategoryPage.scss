@@ -1,0 +1,179 @@
+.categoryPage{
+    ul{
+       // margin-bottom: 2px;
+    }
+    .subCategorySection{
+        justify-content: space-between;
+    }
+    .centerCarausel{
+        justify-content: center;
+    }
+    .scrollCarausel{
+        justify-content: "";
+    }
+    .categoryBanner {
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+        .categoryBanner{
+            display:none !important;
+        }
+        /* height: 60vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; */
+    }
+    .subCategoryTitle{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 16px;
+    }
+    
+    .hotDealSection{
+        .card{
+            border: 1px solid #FD7900;
+            border-radius: 12px;
+            width:100%;
+            max-width: 320px;
+        }
+    }
+    .brandLogos{
+        .card{
+            border: 1px solid #ad0c7c;
+            padding: 10px;
+            max-width: 167px;
+            img{
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .saverbrand .card{
+        max-width: none;
+        border: none !important;
+        // background: unset !important;
+    }
+
+    .subCategoryName{
+        color:#000;
+    }
+    .subCategoryRow{
+        //background: #D7D7FF;
+        margin-bottom: 16px;
+        padding: 14px 0px;
+        .viewAll{
+            background: #ffffff;
+            padding: 6px 10px;
+            color: #040079;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        .subCategoryNameTitle{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+        }
+        
+    }
+    .commonCardimage{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        min-width: 85%;
+        min-height: 150px;
+        margin-top:5px
+    }
+    .displayPrice{
+        color: #333333;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .previousPrice{
+        color: #4F4F4F;
+        text-decoration-line: line-through;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .subCategoryItems{
+        padding: 20px 12px;
+    }
+    
+    @media (max-width: 991px){
+        
+        
+        .subCategoryTitle{
+            padding-top: 24px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            padding-bottom: 12px;
+        }
+        .subCategoryName{
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .commonCardimage{
+            min-height: 146px;
+        }
+       
+    }
+
+    @media (max-width: 929px){
+        .brandLogos{
+            
+            .card{
+                max-width: 161px;
+            }
+        }
+    }
+    @media (max-width: 530px){
+        .brandLogos{
+            .card{
+               max-width: 152px;
+            }
+        }
+    }
+    @media (max-width: 500px){
+        .brandLogos{
+            .card{
+               max-width: 144px;
+            }
+        }
+    }
+
+    @media (max-width: 475px){
+        .brandLogos{
+            
+            .card{
+               max-width: 123px;
+            }
+        }
+    }
+    @media (max-width: 375px){
+        .brandLogos{
+            .card{
+                max-width: 152px;
+            }
+        }
+    }
+
+    @media (max-width: 325px){
+        .brandLogos{
+            li{
+                width: 132px !important;
+            }
+            .card{
+                max-width: 123px;
+            }
+        }
+    }
+}
+

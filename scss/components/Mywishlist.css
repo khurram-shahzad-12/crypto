@@ -1,0 +1,62 @@
+.Mywishlist ul {
+  padding-left: unset;
+}
+.Mywishlist ul li {
+  padding: 11px 18px;
+  border: 1px solid #F2F2F2;
+}
+.Mywishlist .backcolorli {
+  background: #EBEBFF;
+}
+.Mywishlist .accountProfile {
+  font-weight: 500;
+  color: #040079;
+}
+.Mywishlist .cell {
+  font-weight: 500;
+  line-height: 18px;
+  color: #4F4F4F;
+}
+.Mywishlist .interest {
+  background: #00A8F0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.Mywishlist .Sport {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+}
+.Mywishlist .aed {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4F4F4F;
+}
+.Mywishlist .offers {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  background: #EB5757;
+  border-radius: 4px;
+  padding: 4px 8px;
+  width: 62px;
+  height: 24px;
+}
+.Mywishlist .AddtoCart {
+  padding: 8px 32px;
+  width: 260px;
+  height: 40px;
+  background: #0055B8;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  align-items: center;
+}/*# sourceMappingURL=Mywishlist.css.map */

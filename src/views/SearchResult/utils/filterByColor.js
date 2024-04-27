@@ -1,0 +1,1 @@
+export const getProductsByColors = (products, colors) => products.filter(product => colors.length > 0 ? colors.includes(product.color_id) : products);

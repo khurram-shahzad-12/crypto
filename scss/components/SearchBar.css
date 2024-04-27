@@ -1,0 +1,66 @@
+.searchContainer .searchDetail {
+  position: absolute;
+  width: 100%;
+  top: 37px;
+  background: #fff;
+  border: 1px solid #E0E0E0;
+  height: 382px;
+}
+.searchContainer .searchDetail p {
+  color: #999999;
+  font-weight: 700;
+  font-size: 12px;
+}
+.searchContainer .searchDetail ul {
+  list-style-type: none;
+  padding: unset;
+  overflow-y: auto;
+  height: 332px;
+}
+.searchContainer .searchDetail ul li {
+  padding-bottom: 13px;
+}
+.searchContainer .searchDetail ul::-webkit-scrollbar {
+  display: none;
+}
+.searchContainer .searchDetail .matcingbarnd li {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  color: #333333;
+}
+.searchContainer .searchDetail .searchDetailList {
+  padding: 8px 14px 8px 22px;
+}
+.searchContainer .searchDetail .searchDetailList img {
+  width: 100%;
+  border: 1px solid #E0E0E0;
+}
+.searchContainer .searchDetail .searchDetailList .searchTitle {
+  color: #085073;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+}
+.searchContainer .searchDetail .searchDetailList div span {
+  color: #4F4F4F;
+  font-weight: 400;
+  font-size: 11px;
+}
+@media screen and (max-width: 991px) {
+  .searchContainer .searchDetail {
+    top: 79px;
+    left: -16px;
+    max-width: unset;
+    width: 108%;
+    height: auto;
+    z-index: 9999;
+  }
+  .searchContainer .searchDetail img {
+    max-width: 40px;
+  }
+  .searchContainer .searchDetail .searchDetailList ul {
+    height: 400px;
+    overflow-y: scroll;
+  }
+}/*# sourceMappingURL=SearchBar.css.map */

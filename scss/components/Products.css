@@ -1,0 +1,390 @@
+.fullbody {
+  gap: 12px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: none !important;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullbody .glassImg {
+  width: 100%;
+}
+
+.fullbody .fullbodyContainer {
+  height: 174px;
+  padding: 0px 12px;
+}
+
+.fullbody .QuickBox {
+  position: relative;
+}
+
+.fullbody .modeDetail {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.fullbody .modal-backdrop.show {
+  opacity: 0.9 !important;
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.fullbody .modal-header {
+  border-bottom: none !important;
+}
+
+.fullbody .hiddenbox {
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  /*  top: 0;
+   transition: all .3s ease-in-out;
+   z-index: 2; */
+}
+
+.fullbody .button_link:hover {
+  background: #EB5757;
+  border-radius: 4px;
+  color: #fff;
+  height: 40px;
+  width: 127px;
+}
+
+.fullbody .quickButton {
+  width: 154px;
+  height: 40px;
+  text-align: center;
+  background: #EB5757;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.fullbody .glassname {
+  font-weight: 400;
+  height: 30px;
+  font-size: 11px;
+  line-height: 15px;
+  color: #333333;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-bottom: 8px;
+}
+
+.fullbody .glassname:hover {
+  color: #EB5757;
+}
+
+.fullbody .dispOldPrice {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.fullbody .dispPrice {
+  font-weight: 700;
+  font-size: 16px;
+  color: #040079;
+  line-height: 22px;
+}
+
+.fullbody .btnColor {
+  padding: 4px;
+  gap: 4px;
+  width: 100%;
+  height: 32px;
+  border: 1px solid #F2994A;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F2994A;
+}
+
+@media (min-width: 991px) {
+  .fullbody .glassname {
+    font-size: 14px;
+    line-height: 19px;
+    height: 40px;
+  }
+}
+
+.scroolrow {
+  width: "100vw";
+}
+
+@media (min-width: 991px) {
+  .scroolrow {
+    width: "60vw";
+  }
+}
+
+.scrollYAxis::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.filterTille {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 29px;
+}
+
+.modal-header .btn-close {
+  background: transparent url("../../public/Assets/cancel.svg") no-repeat !important;
+}
+
+.glassContainer {
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.3s !important;
+  position: relative;
+  overflow: hidden !important;
+  width: 100%;
+  background-position: center;
+  height: 96px;
+}
+
+.glassContainer:hover:before {
+  opacity: 1;
+}
+
+.glassContainer:hover .glassContainerView {
+  opacity: 1 !important;
+}
+
+.glassContainer::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  opacity: 0;
+}
+
+.glassContainerView {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 375px) {
+  .glassContainer {
+    height: 123px;
+  }
+}
+
+@media (min-width: 425px) {
+  .glassContainer {
+    height: 149px;
+  }
+}
+
+@media (min-width: 991px) {
+  .glassContainer {
+    height: 127px;
+  }
+
+  .glassname {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .glassContainer {
+    height: 220px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .glassContainer {
+    height: 284px;
+  }
+}
+
+.sortBy {
+  margin-top: 16px;
+  border-bottom: 0.6px solid #E0E0E0;
+  margin-bottom: 8px;
+}
+
+.sortBy .arrivals {
+  border: 0.6px solid #E0E0E0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: #4F4F4F;
+}
+
+.sortBy .sortByButton {
+  background-color: transparent;
+}
+
+@media (min-width: 991px) {
+  .sortBy .arrivals {
+    border: none;
+    text-align: left;
+    margin-top: -5px;
+  }
+
+  .sortBy .newarrivals {
+    margin-left: -59px;
+  }
+
+  .sortBy .highPrice {
+    margin-left: -29px;
+  }
+
+  .sortBy .LowPrice {
+    margin-left: -53px;
+  }
+
+  .sortBy .Position {
+    margin-left: -60px;
+  }
+
+  .sortBy .sortbyTitle {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+  }
+}
+
+@media (min-width: 1440px) {
+  .sortBy .newarrivals {
+    margin-left: -100px;
+  }
+
+  .sortBy .highPrice {
+    margin-left: -72px;
+  }
+
+  .sortBy .LowPrice {
+    margin-left: -125px;
+  }
+
+  .sortBy .Position {
+    margin-left: -130px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fullbody {
+    width: 104%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .fullbody {
+    /* height: 424px !important; */
+  }
+}
+
+.filterImage {
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  background: #0D69E0;
+  border-radius: 18px;
+  border: none;
+  position: fixed;
+  top: 50%;
+  z-index: 99;
+  left: 85%;
+}
+
+@media (min-width: 992px) {
+  .filterImage {
+    display: none;
+  }
+}
+
+.fliterclick {
+  width: auto;
+  height: 20px;
+  color: #040079;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  border: none;
+  /* Our Shopee/Shade 05 */
+  background: #EBF8FF;
+  border-radius: 4px;
+}
+
+.clearFilterArray {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  border: none;
+  background-color: transparent;
+  /* identical to box height, or 140% */
+  /* Ourshopee/100% */
+  color: #0D69E0;
+}
+
+.productModel .modal-header {
+  border-bottom: none;
+}
+
+.productModel .modelName {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.productModel .modelDisplayPrice {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #EB5757;
+  margin-inline: 16px;
+}
+
+.productModel .productModelImage {
+  width: 300px;
+  height: 326px;
+}
+
+.productModel .modeltextcontainer {
+  margin: 16px 72px 20px 0px;
+}
+
+/*# sourceMappingURL=Products.css.map */

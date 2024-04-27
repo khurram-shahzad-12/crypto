@@ -1,0 +1,162 @@
+.SellWithUs{
+    .sellwithusimg{
+        width: 100%;
+    }
+    .WhyToSell{
+        color: #000;
+        margin-top: 40px;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .backcolor{
+        border-radius: 50%;
+        padding: 10%;
+        background-color: #c4edf3;
+        //background: #FDFFEB;
+        width: 65%;
+        margin-left: 18%;
+    }
+    .backcolorcerle{
+        border-radius: 50%;
+        padding: 10%;
+        //background-color: #c4edf3;
+        background: #FDFFEB;
+        width: 65%;
+        margin-left: 18%;
+    }
+    .colorcerle{
+        border-radius: 50%;
+        //background-color: #c4edf3;
+        background: #FDFFEB;
+        padding: 30px;
+    }
+    h6{
+        text-align: center;
+        padding-top: 15px;
+        font-weight: bold;
+        font-size: 17px;
+        color: #000;
+    }
+    p{
+        text-align: center;
+        padding-top: 0px;
+        font-weight: normal;
+        font-size: 14px;
+        color: #000;
+    }
+
+    .imgcerle{
+        width: 100%;
+    }
+    .backcimgcerle{
+        border-radius: 50%;
+        background-color: #c4edf3;
+        //background: #FDFFEB;
+        padding: 30px;
+    }
+     .backcolorsize{
+        padding: 19px;
+    }
+    /* .backcolorsize{
+        border-radius: 50%;
+        padding: 48px 26px;
+        background-color: #c4edf3;
+        text-align: center;
+    }*/
+    .paracenter{
+        width: 64%;
+        margin-left: 17%;
+    }
+    .dashedbox{
+        color: #000000;
+        border-radius: 0;
+        margin: 27px;
+        padding: 14px 28px 25px;
+        text-align: center;
+        margin-left: 33%;
+        background: #FFF1EB;
+        width: 35%;
+    }
+    
+    .submitbutton:hover{
+        
+        
+        background: #0153a9;
+    }
+
+    .submitbutton{
+        background: #c90101;
+        border: medium none;
+        border-radius: 3;
+        box-shadow: none;
+        color: #fff;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 38px;
+        padding: 0 20px;
+        text-transform: uppercase;
+    }
+    .RegisterNow:hover{
+        color: #c90101;
+    }
+    .RegisterNow{
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 14px;
+        transition: all .3s ease 0s;
+        color: #0055B8;
+        text-decoration: none !important;
+    }
+    @media screen and (max-width: 991px){
+        .imgcerle{
+            //width: 55%;
+        }
+        .backcolor{
+           width: 20%;
+            margin-left: 39%;
+        }
+        .backcolorsize{
+            padding: 0 40%;
+            /* width: 20%;
+            margin-left: 39%; */
+        }
+        .backcimgcerle{
+            width: 25%;
+            margin-left: 37%;
+            padding: 5%;
+        }
+        .backcolor{
+            width: 25%;
+            margin-left: 37%;
+            padding: 5%;
+        }
+        .dashedbox{
+            margin-left: 3%;
+        }
+    }
+    /* @media screen and (max-width: 425px){
+        .imgcerle{
+            width: 90%;
+        }
+    } */
+    /* @media screen and (max-width: 768px){
+        .imgcerle{
+            width: 60%;
+        }
+    }
+    
+    @media screen and (max-width: 375px){
+        .imgcerle{
+            width: 70%;
+        }
+    }
+    @media screen and (max-width: 320px){
+        .imgcerle{
+            width: 75%;
+        }
+    } */
+    
+}

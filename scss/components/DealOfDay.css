@@ -1,0 +1,149 @@
+.dealOfDay {
+  flex-direction: row;
+}
+.dealOfDay .card {
+  display: flex;
+  flex-direction: row !important;
+}
+.dealOfDay .dealImage {
+  background-color: #FFFFFF;
+  height: 190px;
+  border-radius: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.dealOfDay .dealWatchCountdown {
+  padding: 4px 8px 4px 6px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  gap: 6px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+.dealOfDay .dealWatchCountdown img {
+  max-width: 17px;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+.dealOfDay .dealWatchCountdown span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #EB5757;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.dealOfDay .SellPrice {
+  padding-top: 16px;
+}
+.dealOfDay .dealData {
+  margin: 16px 0px;
+}
+.dealOfDay .dealWatch {
+  color: #EB5757;
+  margin: 3px 0px;
+  font-size: 25px;
+}
+.dealOfDay .oldPrice {
+  padding-bottom: 8px;
+}
+.dealOfDay .oldPrice span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: line-through;
+  color: #4F4F4F;
+}
+.dealOfDay .dealText {
+  margin-top: 16px;
+}
+.dealOfDay .dealText .dealText1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+@media (min-width: 991px) {
+  .dealOfDay {
+    /* .dealWatchCountdown{
+        font-weight: 700;
+        font-size: 16px;
+        width: 125px;
+    } */
+    /* .oldPrice{
+       font-size: 14px;
+       line-height: 18px;
+    } */
+    /* .dealText{
+        font-size: 14px;
+        line-height: 19px;
+        width: 85%;
+    } */
+  }
+}
+@media (max-width: 991px) {
+  .dealOfDay .dealImage {
+    height: 150px;
+    padding-top: 17px;
+  }
+  .dealOfDay .dealWatchCountdown {
+    max-width: 107px;
+  }
+  .dealOfDay .dealWatchCountdown .dealCountdown {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .dealOfDay .SellPrice {
+    padding-top: 8px;
+  }
+  .dealOfDay .SellPrice .dealPrice {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .dealOfDay .oldPrice span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .dealOfDay .dealPercentage {
+    max-width: 54px;
+  }
+  .dealOfDay .dealPercentage span {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .dealOfDay .dealText {
+    margin-top: 8px;
+  }
+  .dealOfDay .dealText .dealText1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 425px) {
+  .dealOfDay .dealImage {
+    height: 162px;
+  }
+}
+@media (max-width: 350px) {
+  .dealOfDay .dealImage {
+    height: 187px;
+  }
+  .dealOfDay .dealImage img {
+    padding-top: 31px;
+  }
+}/*# sourceMappingURL=DealOfDay.css.map */

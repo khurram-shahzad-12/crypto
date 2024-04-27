@@ -1,0 +1,46 @@
+.cartSection span {
+  font-family: "Poppins", sans-serif;
+}
+.cartSection .badge1 {
+  background: #EB5757;
+  color: #FFFFFF;
+  position: absolute;
+  right: 0px;
+  border-radius: 50%;
+  padding: 1px 6px;
+  font-size: 12px;
+  bottom: 14px;
+}
+@media (max-width: 992px) {
+  .cartSection span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 3px;
+  }
+}
+@media (max-width: 784px) {
+  .cartSection .badge1 {
+    right: 13% !important;
+  }
+}
+@media (max-width: 620px) {
+  .cartSection .badge1 {
+    right: 12% !important;
+  }
+}
+@media (max-width: 475px) {
+  .cartSection .badge1 {
+    right: 11% !important;
+  }
+}
+@media (max-width: 395px) {
+  .cartSection .badge1 {
+    right: 10% !important;
+  }
+}
+@media (max-width: 345px) {
+  .cartSection .badge1 {
+    right: 9% !important;
+  }
+}/*# sourceMappingURL=Cart.css.map */

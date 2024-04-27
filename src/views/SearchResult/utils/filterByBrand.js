@@ -1,0 +1,1 @@
+export const getProductsByBrands = (products, brands) => products.filter(product => brands.length > 0 ? brands.includes(product.brand_id) : products);

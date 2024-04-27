@@ -1,0 +1,1 @@
+export const getProductsBySubsubcategory = (products, subsubcategory) => products.filter(product => subsubcategory.length > 0 ? subsubcategory.includes(product.sub_sub_category_id) : products);

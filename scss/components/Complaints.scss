@@ -1,0 +1,140 @@
+.track-order.cmplt{
+    padding: 15px 15px 55px 0;
+}
+.track-order {
+    border: 1px solid #e5e5e5;
+    margin-bottom: 100px;
+    padding: 15px 0;
+    display: block;
+    overflow: hidden;
+    min-height: 450px;
+}
+.track-order h1.sin-page-title {
+    margin: 10px 15px 18px;
+    text-align: left;
+    padding-left: 0;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.sin-page-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 40px;
+    padding: 0 0 15px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+.track-order.cmplt h3 a {
+    padding: 14px 0;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.flt-rit{
+    float: right;
+    img{
+        width: 100%;
+    }
+}
+
+//place a complaint
+.placeComplaint{
+    p{
+        font-size: 12px;;
+    }
+    .contact-wrapper{
+        padding: 37px 0px 60px;
+    }
+    #complaint_form{
+        textarea {
+            width: 100%;
+        }
+
+    }
+    .contact-form {
+        span {
+            float: left;
+            margin: 0 0 35px;
+            padding: 0 15px;
+            width: 100%;
+        }
+        input{
+            background: #f2f2f2;
+            border: none;
+            border-radius: 0;
+            height: 42px;
+            padding-left: 15px;
+            width: 100%;
+            line-height: normal;
+        }
+        
+    }
+    #complaint_form input[type="text"], #complaint_form input[type="email"], #complaint_form textarea {
+        //border: 1px solid #999 !important;
+        background: #f9f9f9 !important;
+        font-size: 13px;
+        :focus {
+            border: 1px solid  #007aff !important;
+          }
+    }
+    .contact-wrapper a.helpline img {
+        width: auto;
+        display: block;
+        margin: auto;
+    }
+    .contact-wrapper a img {
+        width: 55%;
+        display: flex;
+        margin: 8px auto;
+    }
+    #btnsave{
+        width: 120px; 
+        background-color: #0050a9;
+        margin-right: 15px; 
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    .button, .button-link, .checkout-button {
+        background: #c90101;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        color: #fff;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 700;
+        height: 45px;
+        line-height: 45px;
+        padding: 0 16px;
+        text-shadow: none;
+        text-transform: uppercase;
+        transition: all .3s ease 0s;
+        white-space: nowrap;
+    }
+}
+
+.track-complaint{
+    .con-subject{
+        padding: 0 0 0 15px;
+        margin: 0 0 20px;
+    }
+    label{
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    input{
+        border-radius: 0;
+        height: 42px;
+        padding-left: 15px;
+        width: 100%;
+        border: 1px solid #999;
+        font-size: 13px;
+        margin-left: 15px;
+    }
+    .trackComplaint{
+        float: right;
+        border-radius: 0;
+    }
+}

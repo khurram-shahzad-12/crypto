@@ -1,0 +1,150 @@
+.SubmitaReview {
+  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
+  font-style: normal;
+}
+.SubmitaReview .honetitle {
+  margin: 40px 0;
+  color: #024284;
+  margin: 20px 0 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.SubmitaReview .htwo {
+  font-weight: 600;
+  color: #000;
+  margin: 20px 0;
+  text-align: left;
+  font-size: 20px;
+}
+.SubmitaReview .hthree {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+}
+.SubmitaReview li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+.SubmitaReview .fontbold {
+  color: #555;
+  font-weight: bold;
+  margin: 10px auto 20px;
+  font-size: 20px;
+  padding-top: 4%;
+}
+.SubmitaReview .submit:hover {
+  background: #0153a9;
+}
+.SubmitaReview .submit {
+  background: #EB5757;
+  border: medium none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 8px 32px;
+  color: #FFFFFF;
+}
+.SubmitaReview .textarea {
+  background: #f2f2f2;
+  box-shadow: none !important;
+}
+.SubmitaReview .submitpage {
+  margin: 6px 0 18px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+.SubmitaReview .star {
+  color: red;
+}
+.SubmitaReview .filltext {
+  font-size: 12px;
+  color: #333333;
+  font-weight: 500;
+  line-height: 18px;
+  box-shadow: none !important;
+  background: #F9F9F9;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+}
+.SubmitaReview .Captcha {
+  font-size: 12px;
+  color: #333333;
+  font-weight: 500;
+  line-height: 18px;
+  box-shadow: none !important;
+  background: #F9F9F9;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+}
+.SubmitaReview .EnterCaptcha {
+  height: 38px;
+  padding: 0 0.5em 0.1em 1em;
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+  border-color: #333;
+}
+.SubmitaReview .navnavtabs {
+  padding: 40px 15px;
+  border: 1px solid #ddd;
+}
+.SubmitaReview .hrline {
+  margin-top: 6%;
+}
+.SubmitaReview .inputbordernone {
+  background: border-box !important;
+  box-shadow: none !important;
+  border-color: #333;
+}
+.SubmitaReview .imagecaptcha {
+  height: 30px;
+  margin-top: -7%;
+  width: 80px;
+}
+.SubmitaReview .TextName {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333333;
+}
+@media screen and (max-width: 991px) {
+  .SubmitaReview .Captcha {
+    width: 90%;
+    margin-left: 9%;
+  }
+  .SubmitaReview .imagecaptcha {
+    height: 33px;
+    margin-top: -13%;
+    width: 85px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .SubmitaReview .Captcha {
+    width: 86%;
+    margin-left: 14%;
+  }
+  .SubmitaReview .imagecaptcha {
+    height: 31px;
+    margin-top: -13%;
+    width: 75px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .SubmitaReview .Captcha {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: -3%;
+  }
+  .SubmitaReview .imagecaptcha {
+    width: 100px;
+  }
+  .SubmitaReview .breadcrumb {
+    margin-top: -6%;
+  }
+}/*# sourceMappingURL=SubmitaReview.css.map */
